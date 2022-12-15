@@ -1,0 +1,1256 @@
+-----------------------------------------------------
+
+Cluster Nodes 
+-----------------------------------------------------
+
+
+
+Name:               aks-nodepool1-20879919-vmss000003
+Roles:              agent
+Labels:             agentpool=nodepool1
+                    beta.kubernetes.io/arch=amd64
+                    beta.kubernetes.io/instance-type=Standard_DS2_v2
+                    beta.kubernetes.io/os=linux
+                    failure-domain.beta.kubernetes.io/region=eastus
+                    failure-domain.beta.kubernetes.io/zone=0
+                    kubernetes.azure.com/agentpool=nodepool1
+                    kubernetes.azure.com/cluster=MC_justin_justincluster_eastus
+                    kubernetes.azure.com/kubelet-identity-client-id=f0777ec4-c2f0-4a0f-af4b-254bceae57f2
+                    kubernetes.azure.com/mode=system
+                    kubernetes.azure.com/node-image-version=AKSUbuntu-1804gen2containerd-2022.12.01
+                    kubernetes.azure.com/os-sku=Ubuntu
+                    kubernetes.azure.com/role=agent
+                    kubernetes.azure.com/storageprofile=managed
+                    kubernetes.azure.com/storagetier=Premium_LRS
+                    kubernetes.io/arch=amd64
+                    kubernetes.io/hostname=aks-nodepool1-20879919-vmss000003
+                    kubernetes.io/os=linux
+                    kubernetes.io/role=agent
+                    node-role.kubernetes.io/agent=
+                    node.kubernetes.io/instance-type=Standard_DS2_v2
+                    storageprofile=managed
+                    storagetier=Premium_LRS
+                    topology.disk.csi.azure.com/zone=
+                    topology.kubernetes.io/region=eastus
+                    topology.kubernetes.io/zone=0
+Annotations:        csi.volume.kubernetes.io/nodeid:
+                      {"disk.csi.azure.com":"aks-nodepool1-20879919-vmss000003","file.csi.azure.com":"aks-nodepool1-20879919-vmss000003"}
+                    node.alpha.kubernetes.io/ttl: 0
+                    volumes.kubernetes.io/controller-managed-attach-detach: true
+CreationTimestamp:  Fri, 09 Dec 2022 11:25:16 +0000
+Taints:             <none>
+Unschedulable:      false
+Lease:
+  HolderIdentity:  aks-nodepool1-20879919-vmss000003
+  AcquireTime:     <unset>
+  RenewTime:       Thu, 15 Dec 2022 21:06:34 +0000
+Conditions:
+  Type                          Status  LastHeartbeatTime                 LastTransitionTime                Reason                          Message
+  ----                          ------  -----------------                 ------------------                ------                          -------
+  FrequentContainerdRestart     False   Thu, 15 Dec 2022 21:04:39 +0000   Tue, 13 Dec 2022 19:13:50 +0000   NoFrequentContainerdRestart     containerd is functioning properly
+  ContainerRuntimeProblem       False   Thu, 15 Dec 2022 21:04:39 +0000   Tue, 13 Dec 2022 19:13:50 +0000   ContainerRuntimeIsUp            container runtime service is up
+  FrequentUnregisterNetDevice   False   Thu, 15 Dec 2022 21:04:39 +0000   Tue, 13 Dec 2022 19:13:50 +0000   NoFrequentUnregisterNetDevice   node is functioning properly
+  FilesystemCorruptionProblem   False   Thu, 15 Dec 2022 21:04:39 +0000   Tue, 13 Dec 2022 19:13:50 +0000   FilesystemIsOK                  Filesystem is healthy
+  KubeletProblem                False   Thu, 15 Dec 2022 21:04:39 +0000   Tue, 13 Dec 2022 19:13:50 +0000   KubeletIsUp                     kubelet service is up
+  VMEventScheduled              False   Thu, 15 Dec 2022 21:04:39 +0000   Tue, 13 Dec 2022 19:13:50 +0000   NoVMEventScheduled              VM has no scheduled event
+  KernelDeadlock                False   Thu, 15 Dec 2022 21:04:39 +0000   Tue, 13 Dec 2022 19:13:50 +0000   KernelHasNoDeadlock             kernel has no deadlock
+  FrequentKubeletRestart        False   Thu, 15 Dec 2022 21:04:39 +0000   Tue, 13 Dec 2022 19:13:50 +0000   NoFrequentKubeletRestart        kubelet is functioning properly
+  ReadonlyFilesystem            False   Thu, 15 Dec 2022 21:04:39 +0000   Tue, 13 Dec 2022 19:13:50 +0000   FilesystemIsNotReadOnly         Filesystem is not read-only
+  FrequentDockerRestart         False   Thu, 15 Dec 2022 21:04:39 +0000   Tue, 13 Dec 2022 19:13:50 +0000   NoFrequentDockerRestart         docker is functioning properly
+  MemoryPressure                False   Thu, 15 Dec 2022 21:05:54 +0000   Wed, 14 Dec 2022 17:46:42 +0000   KubeletHasSufficientMemory      kubelet has sufficient memory available
+  DiskPressure                  False   Thu, 15 Dec 2022 21:05:54 +0000   Wed, 14 Dec 2022 17:46:42 +0000   KubeletHasNoDiskPressure        kubelet has no disk pressure
+  PIDPressure                   False   Thu, 15 Dec 2022 21:05:54 +0000   Wed, 14 Dec 2022 17:46:42 +0000   KubeletHasSufficientPID         kubelet has sufficient PID available
+  Ready                         True    Thu, 15 Dec 2022 21:05:54 +0000   Wed, 14 Dec 2022 17:46:42 +0000   KubeletReady                    kubelet is posting ready status. AppArmor enabled
+Addresses:
+  InternalIP:  10.224.0.91
+  Hostname:    aks-nodepool1-20879919-vmss000003
+Capacity:
+  cpu:                2
+  ephemeral-storage:  129886128Ki
+  hugepages-1Gi:      0
+  hugepages-2Mi:      0
+  memory:             7116276Ki
+  pods:               30
+Allocatable:
+  cpu:                1900m
+  ephemeral-storage:  119703055367
+  hugepages-1Gi:      0
+  hugepages-2Mi:      0
+  memory:             4670964Ki
+  pods:               30
+System Info:
+  Machine ID:                 f5d9f8df4a6149a48ff3afa2b312eaf1
+  System UUID:                bebd5882-3a5f-4dfe-b380-ced82a48152e
+  Boot ID:                    24a70ff4-7871-4569-ba72-0c5f0acf98a9
+  Kernel Version:             5.4.0-1094-azure
+  OS Image:                   Ubuntu 18.04.6 LTS
+  Operating System:           linux
+  Architecture:               amd64
+  Container Runtime Version:  containerd://1.6.4+azure-4
+  Kubelet Version:            v1.23.12
+  Kube-Proxy Version:         v1.23.12
+ProviderID:                   azure:///subscriptions/2829a39c-98e4-4e04-90de-da5e4e6f36b9/resourceGroups/mc_justin_justincluster_eastus/providers/Microsoft.Compute/virtualMachineScaleSets/aks-nodepool1-20879919-vmss/virtualMachines/3
+Non-terminated Pods:          (13 in total)
+  Namespace                   Name                                   CPU Requests  CPU Limits  Memory Requests  Memory Limits  Age
+  ---------                   ----                                   ------------  ----------  ---------------  -------------  ---
+  calico-system               calico-node-6jdvz                      0 (0%)        0 (0%)      0 (0%)           0 (0%)         5d3h
+  kube-system                 ama-logs-47pk4                         150m (7%)     1 (52%)     550Mi (12%)      1774Mi (38%)   6d9h
+  kube-system                 ama-logs-rs-6447b54758-h8ld5           150m (7%)     1 (52%)     250Mi (5%)       1280Mi (28%)   6d9h
+  kube-system                 azure-ip-masq-agent-bftpx              100m (5%)     500m (26%)  50Mi (1%)        250Mi (5%)     6d9h
+  kube-system                 cloud-node-manager-qzl92               50m (2%)      0 (0%)      50Mi (1%)        512Mi (11%)    6d9h
+  kube-system                 coredns-autoscaler-5589fb5654-lhpmh    20m (1%)      200m (10%)  10Mi (0%)        500Mi (10%)    6d9h
+  kube-system                 coredns-b4854dd98-7788w                100m (5%)     3 (157%)    70Mi (1%)        500Mi (10%)    6d9h
+  kube-system                 csi-azuredisk-node-dp5xj               30m (1%)      0 (0%)      60Mi (1%)        400Mi (8%)     6d9h
+  kube-system                 csi-azurefile-node-bpkrn               30m (1%)      0 (0%)      60Mi (1%)        600Mi (13%)    6d9h
+  kube-system                 kube-proxy-g4wpz                       100m (5%)     0 (0%)      0 (0%)           0 (0%)         20h
+  kube-system                 metrics-server-f77b4cd8-gfpz9          44m (2%)      1 (52%)     55Mi (1%)        2000Mi (43%)   6d9h
+  kube-system                 metrics-server-f77b4cd8-rmjm6          44m (2%)      1 (52%)     55Mi (1%)        2000Mi (43%)   6d9h
+  tigera-kibana               tigera-secure-kb-c5c87fcb5-rkgn7       100m (5%)     100m (5%)   1Gi (22%)        1Gi (22%)      6d8h
+Allocated resources:
+  (Total limits may be over 100 percent, i.e., overcommitted.)
+  Resource           Requests      Limits
+  --------           --------      ------
+  cpu                918m (48%)    7800m (410%)
+  memory             2234Mi (48%)  10840Mi (237%)
+  ephemeral-storage  0 (0%)        0 (0%)
+  hugepages-1Gi      0 (0%)        0 (0%)
+  hugepages-2Mi      0 (0%)        0 (0%)
+Events:              <none>
+
+
+Name:               aks-nodepool1-20879919-vmss000004
+Roles:              agent
+Labels:             agentpool=nodepool1
+                    beta.kubernetes.io/arch=amd64
+                    beta.kubernetes.io/instance-type=Standard_DS2_v2
+                    beta.kubernetes.io/os=linux
+                    failure-domain.beta.kubernetes.io/region=eastus
+                    failure-domain.beta.kubernetes.io/zone=0
+                    kubernetes.azure.com/agentpool=nodepool1
+                    kubernetes.azure.com/cluster=MC_justin_justincluster_eastus
+                    kubernetes.azure.com/kubelet-identity-client-id=f0777ec4-c2f0-4a0f-af4b-254bceae57f2
+                    kubernetes.azure.com/mode=system
+                    kubernetes.azure.com/node-image-version=AKSUbuntu-1804gen2containerd-2022.12.01
+                    kubernetes.azure.com/os-sku=Ubuntu
+                    kubernetes.azure.com/role=agent
+                    kubernetes.azure.com/storageprofile=managed
+                    kubernetes.azure.com/storagetier=Premium_LRS
+                    kubernetes.io/arch=amd64
+                    kubernetes.io/hostname=aks-nodepool1-20879919-vmss000004
+                    kubernetes.io/os=linux
+                    kubernetes.io/role=agent
+                    node-role.kubernetes.io/agent=
+                    node.kubernetes.io/instance-type=Standard_DS2_v2
+                    storageprofile=managed
+                    storagetier=Premium_LRS
+                    topology.disk.csi.azure.com/zone=
+                    topology.kubernetes.io/region=eastus
+                    topology.kubernetes.io/zone=0
+Annotations:        csi.volume.kubernetes.io/nodeid:
+                      {"disk.csi.azure.com":"aks-nodepool1-20879919-vmss000004","file.csi.azure.com":"aks-nodepool1-20879919-vmss000004"}
+                    node.alpha.kubernetes.io/ttl: 0
+                    volumes.kubernetes.io/controller-managed-attach-detach: true
+CreationTimestamp:  Fri, 09 Dec 2022 11:25:24 +0000
+Taints:             <none>
+Unschedulable:      false
+Lease:
+  HolderIdentity:  aks-nodepool1-20879919-vmss000004
+  AcquireTime:     <unset>
+  RenewTime:       Thu, 15 Dec 2022 21:06:34 +0000
+Conditions:
+  Type                          Status  LastHeartbeatTime                 LastTransitionTime                Reason                          Message
+  ----                          ------  -----------------                 ------------------                ------                          -------
+  VMEventScheduled              False   Thu, 15 Dec 2022 21:04:46 +0000   Tue, 13 Dec 2022 19:13:53 +0000   NoVMEventScheduled              VM has no scheduled event
+  FrequentContainerdRestart     False   Thu, 15 Dec 2022 21:04:46 +0000   Tue, 13 Dec 2022 19:13:53 +0000   NoFrequentContainerdRestart     containerd is functioning properly
+  ReadonlyFilesystem            False   Thu, 15 Dec 2022 21:04:46 +0000   Tue, 13 Dec 2022 19:13:53 +0000   FilesystemIsNotReadOnly         Filesystem is not read-only
+  KubeletProblem                False   Thu, 15 Dec 2022 21:04:46 +0000   Tue, 13 Dec 2022 19:13:53 +0000   KubeletIsUp                     kubelet service is up
+  KernelDeadlock                False   Thu, 15 Dec 2022 21:04:46 +0000   Tue, 13 Dec 2022 19:13:53 +0000   KernelHasNoDeadlock             kernel has no deadlock
+  FrequentDockerRestart         False   Thu, 15 Dec 2022 21:04:46 +0000   Tue, 13 Dec 2022 19:13:53 +0000   NoFrequentDockerRestart         docker is functioning properly
+  FrequentUnregisterNetDevice   False   Thu, 15 Dec 2022 21:04:46 +0000   Tue, 13 Dec 2022 19:13:53 +0000   NoFrequentUnregisterNetDevice   node is functioning properly
+  FrequentKubeletRestart        False   Thu, 15 Dec 2022 21:04:46 +0000   Tue, 13 Dec 2022 19:13:53 +0000   NoFrequentKubeletRestart        kubelet is functioning properly
+  FilesystemCorruptionProblem   False   Thu, 15 Dec 2022 21:04:46 +0000   Tue, 13 Dec 2022 19:13:53 +0000   FilesystemIsOK                  Filesystem is healthy
+  ContainerRuntimeProblem       False   Thu, 15 Dec 2022 21:04:46 +0000   Tue, 13 Dec 2022 19:13:53 +0000   ContainerRuntimeIsUp            container runtime service is up
+  MemoryPressure                False   Thu, 15 Dec 2022 21:05:50 +0000   Fri, 09 Dec 2022 11:25:24 +0000   KubeletHasSufficientMemory      kubelet has sufficient memory available
+  DiskPressure                  False   Thu, 15 Dec 2022 21:05:50 +0000   Fri, 09 Dec 2022 11:25:24 +0000   KubeletHasNoDiskPressure        kubelet has no disk pressure
+  PIDPressure                   False   Thu, 15 Dec 2022 21:05:50 +0000   Fri, 09 Dec 2022 11:25:24 +0000   KubeletHasSufficientPID         kubelet has sufficient PID available
+  Ready                         True    Thu, 15 Dec 2022 21:05:50 +0000   Fri, 09 Dec 2022 11:25:35 +0000   KubeletReady                    kubelet is posting ready status. AppArmor enabled
+Addresses:
+  InternalIP:  10.224.0.120
+  Hostname:    aks-nodepool1-20879919-vmss000004
+Capacity:
+  cpu:                2
+  ephemeral-storage:  129886128Ki
+  hugepages-1Gi:      0
+  hugepages-2Mi:      0
+  memory:             7116276Ki
+  pods:               30
+Allocatable:
+  cpu:                1900m
+  ephemeral-storage:  119703055367
+  hugepages-1Gi:      0
+  hugepages-2Mi:      0
+  memory:             4670964Ki
+  pods:               30
+System Info:
+  Machine ID:                 28c8df8109e94a60911ee6295c990c00
+  System UUID:                a0c4382e-9064-4be9-9d7d-3a9a88a8cf2a
+  Boot ID:                    3ab3f95a-f838-4cad-abe1-a0c7b23afc65
+  Kernel Version:             5.4.0-1094-azure
+  OS Image:                   Ubuntu 18.04.6 LTS
+  Operating System:           linux
+  Architecture:               amd64
+  Container Runtime Version:  containerd://1.6.4+azure-4
+  Kubelet Version:            v1.23.12
+  Kube-Proxy Version:         v1.23.12
+ProviderID:                   azure:///subscriptions/2829a39c-98e4-4e04-90de-da5e4e6f36b9/resourceGroups/mc_justin_justincluster_eastus/providers/Microsoft.Compute/virtualMachineScaleSets/aks-nodepool1-20879919-vmss/virtualMachines/4
+Non-terminated Pods:          (11 in total)
+  Namespace                   Name                                   CPU Requests  CPU Limits  Memory Requests  Memory Limits  Age
+  ---------                   ----                                   ------------  ----------  ---------------  -------------  ---
+  calico-system               calico-node-vbkcj                      0 (0%)        0 (0%)      0 (0%)           0 (0%)         5d3h
+  kube-system                 ama-logs-fvgfb                         150m (7%)     1 (52%)     550Mi (12%)      1774Mi (38%)   6d9h
+  kube-system                 azure-ip-masq-agent-zts7k              100m (5%)     500m (26%)  50Mi (1%)        250Mi (5%)     6d9h
+  kube-system                 cloud-node-manager-bprvd               50m (2%)      0 (0%)      50Mi (1%)        512Mi (11%)    6d9h
+  kube-system                 csi-azuredisk-node-z686k               30m (1%)      0 (0%)      60Mi (1%)        400Mi (8%)     6d9h
+  kube-system                 csi-azurefile-node-84vgx               30m (1%)      0 (0%)      60Mi (1%)        600Mi (13%)    6d9h
+  kube-system                 konnectivity-agent-7cd9d798c7-zxgx7    20m (1%)      1 (52%)     20Mi (0%)        1Gi (22%)      6d9h
+  kube-system                 kube-proxy-gs82v                       100m (5%)     0 (0%)      0 (0%)           0 (0%)         20h
+  tigera-operator             tigera-operator-8567f6c6-c7bf4         0 (0%)        0 (0%)      0 (0%)           0 (0%)         6d9h
+  tigera-prometheus           prometheus-calico-node-prometheus-0    100m (5%)     100m (5%)   425Mi (9%)       50Mi (1%)      6d8h
+  tigera-system               tigera-apiserver-6654f9db46-575vb      0 (0%)        0 (0%)      0 (0%)           0 (0%)         6d8h
+Allocated resources:
+  (Total limits may be over 100 percent, i.e., overcommitted.)
+  Resource           Requests      Limits
+  --------           --------      ------
+  cpu                580m (30%)    2600m (136%)
+  memory             1215Mi (26%)  4610Mi (101%)
+  ephemeral-storage  0 (0%)        0 (0%)
+  hugepages-1Gi      0 (0%)        0 (0%)
+  hugepages-2Mi      0 (0%)        0 (0%)
+Events:              <none>
+
+-----------------------------------------------------
+
+Cluster Pods 
+-----------------------------------------------------
+
+NAME                                STATUS   ROLES   AGE    VERSION
+aks-nodepool1-20879919-vmss000000   Ready    agent   6d9h   v1.23.12
+aks-nodepool1-20879919-vmss000001   Ready    agent   6d9h   v1.23.12
+aks-nodepool1-20879919-vmss000002   Ready    agent   6d9h   v1.23.12
+aks-nodepool1-20879919-vmss000003   Ready    agent   6d9h   v1.23.12
+aks-nodepool1-20879919-vmss000004   Ready    agent   6d9h   v1.23.12
+NAMESPACE              NAME                                         READY   STATUS    RESTARTS        AGE    IP             NODE                                NOMINATED NODE   READINESS GATES
+calico-system          calico-kube-controllers-7d4bd6df6f-6dvbp     1/1     Running   0               6d8h   10.224.0.49    aks-nodepool1-20879919-vmss000001   <none>           <none>
+calico-system          calico-node-2rc7m                            1/1     Running   0               5d3h   10.224.0.33    aks-nodepool1-20879919-vmss000001   <none>           <none>
+calico-system          calico-node-6jdvz                            1/1     Running   0               5d3h   10.224.0.91    aks-nodepool1-20879919-vmss000003   <none>           <none>
+calico-system          calico-node-9qkvg                            1/1     Running   0               5d3h   10.224.0.4     aks-nodepool1-20879919-vmss000000   <none>           <none>
+calico-system          calico-node-vbkcj                            1/1     Running   0               5d3h   10.224.0.120   aks-nodepool1-20879919-vmss000004   <none>           <none>
+calico-system          calico-node-vlgj9                            1/1     Running   0               5d3h   10.224.0.62    aks-nodepool1-20879919-vmss000002   <none>           <none>
+calico-system          calico-typha-75d49dc97d-lrfb6                1/1     Running   0               6d8h   10.224.0.33    aks-nodepool1-20879919-vmss000001   <none>           <none>
+calico-system          calico-typha-75d49dc97d-ns6bn                1/1     Running   0               6d8h   10.224.0.62    aks-nodepool1-20879919-vmss000002   <none>           <none>
+calico-system          calico-typha-75d49dc97d-xc24p                1/1     Running   0               6d8h   10.224.0.4     aks-nodepool1-20879919-vmss000000   <none>           <none>
+kube-system            ama-logs-47pk4                               2/2     Running   0               6d9h   10.224.0.106   aks-nodepool1-20879919-vmss000003   <none>           <none>
+kube-system            ama-logs-fvgfb                               2/2     Running   0               6d9h   10.224.0.128   aks-nodepool1-20879919-vmss000004   <none>           <none>
+kube-system            ama-logs-pwwbx                               2/2     Running   0               6d9h   10.224.0.46    aks-nodepool1-20879919-vmss000001   <none>           <none>
+kube-system            ama-logs-q9569                               2/2     Running   0               6d9h   10.224.0.14    aks-nodepool1-20879919-vmss000000   <none>           <none>
+kube-system            ama-logs-rs-6447b54758-h8ld5                 1/1     Running   0               6d9h   10.224.0.108   aks-nodepool1-20879919-vmss000003   <none>           <none>
+kube-system            ama-logs-vfccm                               2/2     Running   0               6d9h   10.224.0.64    aks-nodepool1-20879919-vmss000002   <none>           <none>
+kube-system            azure-ip-masq-agent-bftpx                    1/1     Running   0               6d9h   10.224.0.91    aks-nodepool1-20879919-vmss000003   <none>           <none>
+kube-system            azure-ip-masq-agent-bsnpt                    1/1     Running   0               6d9h   10.224.0.62    aks-nodepool1-20879919-vmss000002   <none>           <none>
+kube-system            azure-ip-masq-agent-fttnp                    1/1     Running   0               6d9h   10.224.0.33    aks-nodepool1-20879919-vmss000001   <none>           <none>
+kube-system            azure-ip-masq-agent-pq6bc                    1/1     Running   0               6d9h   10.224.0.4     aks-nodepool1-20879919-vmss000000   <none>           <none>
+kube-system            azure-ip-masq-agent-zts7k                    1/1     Running   0               6d9h   10.224.0.120   aks-nodepool1-20879919-vmss000004   <none>           <none>
+kube-system            cloud-node-manager-bprvd                     1/1     Running   0               6d9h   10.224.0.120   aks-nodepool1-20879919-vmss000004   <none>           <none>
+kube-system            cloud-node-manager-fwxl4                     1/1     Running   0               6d9h   10.224.0.33    aks-nodepool1-20879919-vmss000001   <none>           <none>
+kube-system            cloud-node-manager-jljzf                     1/1     Running   0               6d9h   10.224.0.62    aks-nodepool1-20879919-vmss000002   <none>           <none>
+kube-system            cloud-node-manager-qzl92                     1/1     Running   0               6d9h   10.224.0.91    aks-nodepool1-20879919-vmss000003   <none>           <none>
+kube-system            cloud-node-manager-v8nbp                     1/1     Running   0               6d9h   10.224.0.4     aks-nodepool1-20879919-vmss000000   <none>           <none>
+kube-system            coredns-autoscaler-5589fb5654-lhpmh          1/1     Running   0               6d9h   10.224.0.110   aks-nodepool1-20879919-vmss000003   <none>           <none>
+kube-system            coredns-b4854dd98-7788w                      1/1     Running   0               6d9h   10.224.0.112   aks-nodepool1-20879919-vmss000003   <none>           <none>
+kube-system            coredns-b4854dd98-zx4b4                      1/1     Running   0               6d9h   10.224.0.17    aks-nodepool1-20879919-vmss000000   <none>           <none>
+kube-system            csi-azuredisk-node-78kn9                     3/3     Running   0               6d9h   10.224.0.4     aks-nodepool1-20879919-vmss000000   <none>           <none>
+kube-system            csi-azuredisk-node-dp5xj                     3/3     Running   0               6d9h   10.224.0.91    aks-nodepool1-20879919-vmss000003   <none>           <none>
+kube-system            csi-azuredisk-node-lwj9q                     3/3     Running   0               6d9h   10.224.0.33    aks-nodepool1-20879919-vmss000001   <none>           <none>
+kube-system            csi-azuredisk-node-npsfl                     3/3     Running   0               6d9h   10.224.0.62    aks-nodepool1-20879919-vmss000002   <none>           <none>
+kube-system            csi-azuredisk-node-z686k                     3/3     Running   0               6d9h   10.224.0.120   aks-nodepool1-20879919-vmss000004   <none>           <none>
+kube-system            csi-azurefile-node-84vgx                     3/3     Running   0               6d9h   10.224.0.120   aks-nodepool1-20879919-vmss000004   <none>           <none>
+kube-system            csi-azurefile-node-bpkrn                     3/3     Running   0               6d9h   10.224.0.91    aks-nodepool1-20879919-vmss000003   <none>           <none>
+kube-system            csi-azurefile-node-l5bfs                     3/3     Running   0               6d9h   10.224.0.62    aks-nodepool1-20879919-vmss000002   <none>           <none>
+kube-system            csi-azurefile-node-q9pmg                     3/3     Running   0               6d9h   10.224.0.33    aks-nodepool1-20879919-vmss000001   <none>           <none>
+kube-system            csi-azurefile-node-wjxl9                     3/3     Running   0               6d9h   10.224.0.4     aks-nodepool1-20879919-vmss000000   <none>           <none>
+kube-system            konnectivity-agent-7cd9d798c7-7qmhx          1/1     Running   0               6d9h   10.224.0.54    aks-nodepool1-20879919-vmss000001   <none>           <none>
+kube-system            konnectivity-agent-7cd9d798c7-zxgx7          1/1     Running   0               6d9h   10.224.0.130   aks-nodepool1-20879919-vmss000004   <none>           <none>
+kube-system            kube-proxy-g4wpz                             1/1     Running   0               20h    10.224.0.91    aks-nodepool1-20879919-vmss000003   <none>           <none>
+kube-system            kube-proxy-gs82v                             1/1     Running   0               20h    10.224.0.120   aks-nodepool1-20879919-vmss000004   <none>           <none>
+kube-system            kube-proxy-lgnmx                             1/1     Running   0               20h    10.224.0.4     aks-nodepool1-20879919-vmss000000   <none>           <none>
+kube-system            kube-proxy-pg6b7                             1/1     Running   0               20h    10.224.0.62    aks-nodepool1-20879919-vmss000002   <none>           <none>
+kube-system            kube-proxy-rblfs                             1/1     Running   0               20h    10.224.0.33    aks-nodepool1-20879919-vmss000001   <none>           <none>
+kube-system            metrics-server-f77b4cd8-gfpz9                1/1     Running   0               6d9h   10.224.0.104   aks-nodepool1-20879919-vmss000003   <none>           <none>
+kube-system            metrics-server-f77b4cd8-rmjm6                1/1     Running   0               6d9h   10.224.0.117   aks-nodepool1-20879919-vmss000003   <none>           <none>
+tigera-eck-operator    elastic-operator-0                           1/1     Running   1 (4d16h ago)   6d8h   10.224.0.69    aks-nodepool1-20879919-vmss000002   <none>           <none>
+tigera-elasticsearch   tigera-secure-es-7f5dee596fef130f-0          0/1     Pending   0               6d8h   <none>         <none>                              <none>           <none>
+tigera-kibana          tigera-secure-kb-c5c87fcb5-646s2             0/1     Running   0               6d8h   10.224.0.41    aks-nodepool1-20879919-vmss000001   <none>           <none>
+tigera-kibana          tigera-secure-kb-c5c87fcb5-rkgn7             0/1     Running   0               6d8h   10.224.0.111   aks-nodepool1-20879919-vmss000003   <none>           <none>
+tigera-operator        tigera-operator-8567f6c6-c7bf4               1/1     Running   0               6d9h   10.224.0.120   aks-nodepool1-20879919-vmss000004   <none>           <none>
+tigera-packetcapture   tigera-packetcapture-7c694b96dc-66g49        1/1     Running   0               6d8h   10.224.0.35    aks-nodepool1-20879919-vmss000001   <none>           <none>
+tigera-prometheus      alertmanager-calico-node-alertmanager-0      2/2     Running   0               6d8h   10.224.0.57    aks-nodepool1-20879919-vmss000001   <none>           <none>
+tigera-prometheus      alertmanager-calico-node-alertmanager-1      2/2     Running   0               6d8h   10.224.0.11    aks-nodepool1-20879919-vmss000000   <none>           <none>
+tigera-prometheus      alertmanager-calico-node-alertmanager-2      2/2     Running   0               6d8h   10.224.0.78    aks-nodepool1-20879919-vmss000002   <none>           <none>
+tigera-prometheus      calico-prometheus-operator-68cbff4f5-wpb6q   1/1     Running   0               6d9h   10.224.0.75    aks-nodepool1-20879919-vmss000002   <none>           <none>
+tigera-prometheus      prometheus-calico-node-prometheus-0          3/3     Running   0               6d8h   10.224.0.148   aks-nodepool1-20879919-vmss000004   <none>           <none>
+tigera-system          tigera-apiserver-6654f9db46-575vb            2/2     Running   0               6d8h   10.224.0.146   aks-nodepool1-20879919-vmss000004   <none>           <none>
+tigera-system          tigera-apiserver-6654f9db46-5nhb7            2/2     Running   0               6d8h   10.224.0.18    aks-nodepool1-20879919-vmss000000   <none>           <none>
+
+-----------------------------------------------------
+
+Cluster Services 
+-----------------------------------------------------
+
+Name:               aks-nodepool1-20879919-vmss000000
+Roles:              agent
+Labels:             agentpool=nodepool1
+                    beta.kubernetes.io/arch=amd64
+                    beta.kubernetes.io/instance-type=Standard_DS2_v2
+                    beta.kubernetes.io/os=linux
+                    failure-domain.beta.kubernetes.io/region=eastus
+                    failure-domain.beta.kubernetes.io/zone=0
+                    kubernetes.azure.com/agentpool=nodepool1
+                    kubernetes.azure.com/cluster=MC_justin_justincluster_eastus
+                    kubernetes.azure.com/kubelet-identity-client-id=f0777ec4-c2f0-4a0f-af4b-254bceae57f2
+                    kubernetes.azure.com/mode=system
+                    kubernetes.azure.com/node-image-version=AKSUbuntu-1804gen2containerd-2022.12.01
+                    kubernetes.azure.com/os-sku=Ubuntu
+                    kubernetes.azure.com/role=agent
+                    kubernetes.azure.com/storageprofile=managed
+                    kubernetes.azure.com/storagetier=Premium_LRS
+                    kubernetes.io/arch=amd64
+                    kubernetes.io/hostname=aks-nodepool1-20879919-vmss000000
+                    kubernetes.io/os=linux
+                    kubernetes.io/role=agent
+                    node-role.kubernetes.io/agent=
+                    node.kubernetes.io/instance-type=Standard_DS2_v2
+                    storageprofile=managed
+                    storagetier=Premium_LRS
+                    topology.disk.csi.azure.com/zone=
+                    topology.kubernetes.io/region=eastus
+                    topology.kubernetes.io/zone=0
+Annotations:        csi.volume.kubernetes.io/nodeid:
+                      {"disk.csi.azure.com":"aks-nodepool1-20879919-vmss000000","file.csi.azure.com":"aks-nodepool1-20879919-vmss000000"}
+                    node.alpha.kubernetes.io/ttl: 0
+                    volumes.kubernetes.io/controller-managed-attach-detach: true
+CreationTimestamp:  Fri, 09 Dec 2022 11:25:19 +0000
+Taints:             <none>
+Unschedulable:      false
+Lease:
+  HolderIdentity:  aks-nodepool1-20879919-vmss000000
+  AcquireTime:     <unset>
+  RenewTime:       Thu, 15 Dec 2022 21:06:35 +0000
+Conditions:
+  Type                          Status  LastHeartbeatTime                 LastTransitionTime                Reason                          Message
+  ----                          ------  -----------------                 ------------------                ------                          -------
+  ContainerRuntimeProblem       False   Thu, 15 Dec 2022 21:05:00 +0000   Tue, 13 Dec 2022 19:13:52 +0000   ContainerRuntimeIsUp            container runtime service is up
+  FrequentUnregisterNetDevice   False   Thu, 15 Dec 2022 21:05:00 +0000   Tue, 13 Dec 2022 19:13:52 +0000   NoFrequentUnregisterNetDevice   node is functioning properly
+  VMEventScheduled              False   Thu, 15 Dec 2022 21:05:00 +0000   Tue, 13 Dec 2022 19:13:52 +0000   NoVMEventScheduled              VM has no scheduled event
+  FrequentDockerRestart         False   Thu, 15 Dec 2022 21:05:00 +0000   Tue, 13 Dec 2022 19:13:52 +0000   NoFrequentDockerRestart         docker is functioning properly
+  FrequentContainerdRestart     False   Thu, 15 Dec 2022 21:05:00 +0000   Tue, 13 Dec 2022 19:13:52 +0000   NoFrequentContainerdRestart     containerd is functioning properly
+  KernelDeadlock                False   Thu, 15 Dec 2022 21:05:00 +0000   Tue, 13 Dec 2022 19:13:52 +0000   KernelHasNoDeadlock             kernel has no deadlock
+  FilesystemCorruptionProblem   False   Thu, 15 Dec 2022 21:05:00 +0000   Tue, 13 Dec 2022 19:13:52 +0000   FilesystemIsOK                  Filesystem is healthy
+  RebootScheduled               False   Thu, 15 Dec 2022 21:05:00 +0000   Tue, 13 Dec 2022 19:13:52 +0000   NoRebootScheduled               VM has no scheduled Reboot event
+  KubeletProblem                False   Thu, 15 Dec 2022 21:05:00 +0000   Tue, 13 Dec 2022 19:13:52 +0000   KubeletIsUp                     kubelet service is up
+  PreemptScheduled              False   Thu, 15 Dec 2022 21:05:00 +0000   Tue, 13 Dec 2022 19:13:52 +0000   NoPreemptScheduled              VM has no scheduled Preempt event
+  FrequentKubeletRestart        False   Thu, 15 Dec 2022 21:05:00 +0000   Tue, 13 Dec 2022 19:13:52 +0000   NoFrequentKubeletRestart        kubelet is functioning properly
+  ReadonlyFilesystem            False   Thu, 15 Dec 2022 21:05:00 +0000   Tue, 13 Dec 2022 19:13:52 +0000   FilesystemIsNotReadOnly         Filesystem is not read-only
+  FreezeScheduled               False   Thu, 15 Dec 2022 21:05:00 +0000   Tue, 13 Dec 2022 19:13:52 +0000   NoFreezeScheduled               VM has no scheduled Freeze event
+  TerminateScheduled            False   Thu, 15 Dec 2022 21:05:00 +0000   Tue, 13 Dec 2022 19:13:52 +0000   NoTerminateScheduled            VM has no scheduled Terminate event
+  RedeployScheduled             False   Thu, 15 Dec 2022 21:05:00 +0000   Tue, 13 Dec 2022 19:13:52 +0000   NoRedeployScheduled             VM has no scheduled Redeploy event
+  MemoryPressure                False   Thu, 15 Dec 2022 21:04:57 +0000   Fri, 09 Dec 2022 11:25:19 +0000   KubeletHasSufficientMemory      kubelet has sufficient memory available
+  DiskPressure                  False   Thu, 15 Dec 2022 21:04:57 +0000   Fri, 09 Dec 2022 11:25:19 +0000   KubeletHasNoDiskPressure        kubelet has no disk pressure
+  PIDPressure                   False   Thu, 15 Dec 2022 21:04:57 +0000   Fri, 09 Dec 2022 11:25:19 +0000   KubeletHasSufficientPID         kubelet has sufficient PID available
+  Ready                         True    Thu, 15 Dec 2022 21:04:57 +0000   Fri, 09 Dec 2022 11:25:29 +0000   KubeletReady                    kubelet is posting ready status. AppArmor enabled
+Addresses:
+  InternalIP:  10.224.0.4
+  Hostname:    aks-nodepool1-20879919-vmss000000
+Capacity:
+  cpu:                2
+  ephemeral-storage:  129886128Ki
+  hugepages-1Gi:      0
+  hugepages-2Mi:      0
+  memory:             7116276Ki
+  pods:               30
+Allocatable:
+  cpu:                1900m
+  ephemeral-storage:  119703055367
+  hugepages-1Gi:      0
+  hugepages-2Mi:      0
+  memory:             4670964Ki
+  pods:               30
+System Info:
+  Machine ID:                 e769f3ce2a8d4d218d4df0ca27fa8b7c
+  System UUID:                d447a35c-7384-4976-91b2-1f1337884623
+  Boot ID:                    4f091f14-ee8a-4f7c-8f68-a66109c44504
+  Kernel Version:             5.4.0-1094-azure
+  OS Image:                   Ubuntu 18.04.6 LTS
+  Operating System:           linux
+  Architecture:               amd64
+  Container Runtime Version:  containerd://1.6.4+azure-4
+  Kubelet Version:            v1.23.12
+  Kube-Proxy Version:         v1.23.12
+ProviderID:                   azure:///subscriptions/2829a39c-98e4-4e04-90de-da5e4e6f36b9/resourceGroups/mc_justin_justincluster_eastus/providers/Microsoft.Compute/virtualMachineScaleSets/aks-nodepool1-20879919-vmss/virtualMachines/0
+Non-terminated Pods:          (11 in total)
+  Namespace                   Name                                       CPU Requests  CPU Limits  Memory Requests  Memory Limits  Age
+  ---------                   ----                                       ------------  ----------  ---------------  -------------  ---
+  calico-system               calico-node-9qkvg                          0 (0%)        0 (0%)      0 (0%)           0 (0%)         5d3h
+  calico-system               calico-typha-75d49dc97d-xc24p              0 (0%)        0 (0%)      0 (0%)           0 (0%)         6d8h
+  kube-system                 ama-logs-q9569                             150m (7%)     1 (52%)     550Mi (12%)      1774Mi (38%)   6d9h
+  kube-system                 azure-ip-masq-agent-pq6bc                  100m (5%)     500m (26%)  50Mi (1%)        250Mi (5%)     6d9h
+  kube-system                 cloud-node-manager-v8nbp                   50m (2%)      0 (0%)      50Mi (1%)        512Mi (11%)    6d9h
+  kube-system                 coredns-b4854dd98-zx4b4                    100m (5%)     3 (157%)    70Mi (1%)        500Mi (10%)    6d9h
+  kube-system                 csi-azuredisk-node-78kn9                   30m (1%)      0 (0%)      60Mi (1%)        400Mi (8%)     6d9h
+  kube-system                 csi-azurefile-node-wjxl9                   30m (1%)      0 (0%)      60Mi (1%)        600Mi (13%)    6d9h
+  kube-system                 kube-proxy-lgnmx                           100m (5%)     0 (0%)      0 (0%)           0 (0%)         20h
+  tigera-prometheus           alertmanager-calico-node-alertmanager-1    100m (5%)     100m (5%)   225Mi (4%)       50Mi (1%)      6d8h
+  tigera-system               tigera-apiserver-6654f9db46-5nhb7          0 (0%)        0 (0%)      0 (0%)           0 (0%)         6d8h
+Allocated resources:
+  (Total limits may be over 100 percent, i.e., overcommitted.)
+  Resource           Requests      Limits
+  --------           --------      ------
+  cpu                660m (34%)    4600m (242%)
+  memory             1065Mi (23%)  4086Mi (89%)
+  ephemeral-storage  0 (0%)        0 (0%)
+  hugepages-1Gi      0 (0%)        0 (0%)
+  hugepages-2Mi      0 (0%)        0 (0%)
+Events:              <none>
+NAMESPACE              NAME                                TYPE        CLUSTER-IP     EXTERNAL-IP   PORT(S)                      AGE
+calico-system          calico-kube-controllers-metrics     ClusterIP   10.0.70.204    <none>        9094/TCP                     6d8h
+calico-system          calico-node-metrics                 ClusterIP   10.0.167.144   <none>        9081/TCP,9900/TCP            6d8h
+calico-system          calico-typha                        ClusterIP   10.0.201.125   <none>        5473/TCP                     6d8h
+default                kubernetes                          ClusterIP   10.0.0.1       <none>        443/TCP                      6d9h
+kube-system            kube-dns                            ClusterIP   10.0.0.10      <none>        53/UDP,53/TCP                6d9h
+kube-system            metrics-server                      ClusterIP   10.0.123.167   <none>        443/TCP                      6d9h
+tigera-elasticsearch   tigera-secure-es-7f5dee596fef130f   ClusterIP   None           <none>        9200/TCP                     6d8h
+tigera-elasticsearch   tigera-secure-es-http               ClusterIP   10.0.226.177   <none>        9200/TCP                     6d8h
+tigera-elasticsearch   tigera-secure-es-transport          ClusterIP   None           <none>        9300/TCP                     6d8h
+tigera-kibana          tigera-secure-kb-http               ClusterIP   10.0.34.236    <none>        5601/TCP                     6d8h
+tigera-packetcapture   tigera-packetcapture                ClusterIP   10.0.97.102    <none>        443/TCP                      6d8h
+tigera-prometheus      alertmanager-operated               ClusterIP   None           <none>        9093/TCP,9094/TCP,9094/UDP   6d8h
+tigera-prometheus      calico-node-alertmanager            ClusterIP   10.0.95.21     <none>        9093/TCP                     6d8h
+tigera-prometheus      prometheus-http-api                 ClusterIP   10.0.84.156    <none>        9090/TCP                     6d8h
+tigera-prometheus      prometheus-operated                 ClusterIP   None           <none>        9090/TCP                     6d8h
+tigera-system          tigera-api                          ClusterIP   10.0.43.221    <none>        443/TCP,8080/TCP             6d8h
+
+-----------------------------------------------------
+
+Installation Details 
+-----------------------------------------------------
+
+
+
+Name:               aks-nodepool1-20879919-vmss000001
+Roles:              agent
+Labels:             agentpool=nodepool1
+                    beta.kubernetes.io/arch=amd64
+                    beta.kubernetes.io/instance-type=Standard_DS2_v2
+                    beta.kubernetes.io/os=linux
+                    failure-domain.beta.kubernetes.io/region=eastus
+                    failure-domain.beta.kubernetes.io/zone=0
+                    kubernetes.azure.com/agentpool=nodepool1
+                    kubernetes.azure.com/cluster=MC_justin_justincluster_eastus
+                    kubernetes.azure.com/kubelet-identity-client-id=f0777ec4-c2f0-4a0f-af4b-254bceae57f2
+                    kubernetes.azure.com/mode=system
+                    kubernetes.azure.com/node-image-version=AKSUbuntu-1804gen2containerd-2022.12.01
+                    kubernetes.azure.com/os-sku=Ubuntu
+                    kubernetes.azure.com/role=agent
+                    kubernetes.azure.com/storageprofile=managed
+                    kubernetes.azure.com/storagetier=Premium_LRS
+                    kubernetes.io/arch=amd64
+                    kubernetes.io/hostname=aks-nodepool1-20879919-vmss000001
+                    kubernetes.io/os=linux
+                    kubernetes.io/role=agent
+                    node-role.kubernetes.io/agent=
+                    node.kubernetes.io/instance-type=Standard_DS2_v2
+                    storageprofile=managed
+                    storagetier=Premium_LRS
+                    topology.disk.csi.azure.com/zone=
+                    topology.kubernetes.io/region=eastus
+                    topology.kubernetes.io/zone=0
+Annotations:        csi.volume.kubernetes.io/nodeid:
+                      {"disk.csi.azure.com":"aks-nodepool1-20879919-vmss000001","file.csi.azure.com":"aks-nodepool1-20879919-vmss000001"}
+                    node.alpha.kubernetes.io/ttl: 0
+                    volumes.kubernetes.io/controller-managed-attach-detach: true
+CreationTimestamp:  Fri, 09 Dec 2022 11:25:29 +0000
+Taints:             <none>
+Unschedulable:      false
+Lease:
+  HolderIdentity:  aks-nodepool1-20879919-vmss000001
+  AcquireTime:     <unset>
+  RenewTime:       Thu, 15 Dec 2022 21:06:33 +0000
+Conditions:
+  Type                          Status  LastHeartbeatTime                 LastTransitionTime                Reason                          Message
+  ----                          ------  -----------------                 ------------------                ------                          -------
+  VMEventScheduled              False   Thu, 15 Dec 2022 21:04:40 +0000   Tue, 13 Dec 2022 19:13:54 +0000   NoVMEventScheduled              VM has no scheduled event
+  FrequentContainerdRestart     False   Thu, 15 Dec 2022 21:04:40 +0000   Tue, 13 Dec 2022 19:13:54 +0000   NoFrequentContainerdRestart     containerd is functioning properly
+  KubeletProblem                False   Thu, 15 Dec 2022 21:04:40 +0000   Tue, 13 Dec 2022 19:13:54 +0000   KubeletIsUp                     kubelet service is up
+  ContainerRuntimeProblem       False   Thu, 15 Dec 2022 21:04:40 +0000   Tue, 13 Dec 2022 19:13:54 +0000   ContainerRuntimeIsUp            container runtime service is up
+  FrequentKubeletRestart        False   Thu, 15 Dec 2022 21:04:40 +0000   Tue, 13 Dec 2022 19:13:54 +0000   NoFrequentKubeletRestart        kubelet is functioning properly
+  ReadonlyFilesystem            False   Thu, 15 Dec 2022 21:04:40 +0000   Tue, 13 Dec 2022 19:13:54 +0000   FilesystemIsNotReadOnly         Filesystem is not read-only
+  KernelDeadlock                False   Thu, 15 Dec 2022 21:04:40 +0000   Tue, 13 Dec 2022 19:13:54 +0000   KernelHasNoDeadlock             kernel has no deadlock
+  FrequentUnregisterNetDevice   False   Thu, 15 Dec 2022 21:04:40 +0000   Tue, 13 Dec 2022 19:13:54 +0000   NoFrequentUnregisterNetDevice   node is functioning properly
+  FrequentDockerRestart         False   Thu, 15 Dec 2022 21:04:40 +0000   Tue, 13 Dec 2022 19:13:54 +0000   NoFrequentDockerRestart         docker is functioning properly
+  FilesystemCorruptionProblem   False   Thu, 15 Dec 2022 21:04:40 +0000   Tue, 13 Dec 2022 19:13:54 +0000   FilesystemIsOK                  Filesystem is healthy
+  MemoryPressure                False   Thu, 15 Dec 2022 21:04:45 +0000   Fri, 09 Dec 2022 11:25:29 +0000   KubeletHasSufficientMemory      kubelet has sufficient memory available
+  DiskPressure                  False   Thu, 15 Dec 2022 21:04:45 +0000   Fri, 09 Dec 2022 11:25:29 +0000   KubeletHasNoDiskPressure        kubelet has no disk pressure
+  PIDPressure                   False   Thu, 15 Dec 2022 21:04:45 +0000   Fri, 09 Dec 2022 11:25:29 +0000   KubeletHasSufficientPID         kubelet has sufficient PID available
+  Ready                         True    Thu, 15 Dec 2022 21:04:45 +0000   Fri, 09 Dec 2022 11:25:39 +0000   KubeletReady                    kubelet is posting ready status. AppArmor enabled
+Addresses:
+  InternalIP:  10.224.0.33
+  Hostname:    aks-nodepool1-20879919-vmss000001
+Capacity:
+  cpu:                2
+  ephemeral-storage:  129886128Ki
+  hugepages-1Gi:      0
+  hugepages-2Mi:      0
+  memory:             7116276Ki
+  pods:               30
+Allocatable:
+  cpu:                1900m
+  ephemeral-storage:  119703055367
+  hugepages-1Gi:      0
+  hugepages-2Mi:      0
+  memory:             4670964Ki
+  pods:               30
+System Info:
+  Machine ID:                 3345f13e63b94a3fa360d5e5aca67df9
+  System UUID:                7467e4d1-3787-4888-bd13-afc826b8aeae
+  Boot ID:                    bcc0b186-5606-4238-8052-932345b8f6f8
+  Kernel Version:             5.4.0-1094-azure
+  OS Image:                   Ubuntu 18.04.6 LTS
+  Operating System:           linux
+  Architecture:               amd64
+  Container Runtime Version:  containerd://1.6.4+azure-4
+  Kubelet Version:            v1.23.12
+  Kube-Proxy Version:         v1.23.12
+ProviderID:                   azure:///subscriptions/2829a39c-98e4-4e04-90de-da5e4e6f36b9/resourceGroups/mc_justin_justincluster_eastus/providers/Microsoft.Compute/virtualMachineScaleSets/aks-nodepool1-20879919-vmss/virtualMachines/1
+Non-terminated Pods:          (13 in total)
+  Namespace                   Name                                        CPU Requests  CPU Limits  Memory Requests  Memory Limits  Age
+  ---------                   ----                                        ------------  ----------  ---------------  -------------  ---
+  calico-system               calico-kube-controllers-7d4bd6df6f-6dvbp    0 (0%)        0 (0%)      0 (0%)           0 (0%)         6d8h
+  calico-system               calico-node-2rc7m                           0 (0%)        0 (0%)      0 (0%)           0 (0%)         5d3h
+  calico-system               calico-typha-75d49dc97d-lrfb6               0 (0%)        0 (0%)      0 (0%)           0 (0%)         6d8h
+  kube-system                 ama-logs-pwwbx                              150m (7%)     1 (52%)     550Mi (12%)      1774Mi (38%)   6d9h
+  kube-system                 azure-ip-masq-agent-fttnp                   100m (5%)     500m (26%)  50Mi (1%)        250Mi (5%)     6d9h
+  kube-system                 cloud-node-manager-fwxl4                    50m (2%)      0 (0%)      50Mi (1%)        512Mi (11%)    6d9h
+  kube-system                 csi-azuredisk-node-lwj9q                    30m (1%)      0 (0%)      60Mi (1%)        400Mi (8%)     6d9h
+  kube-system                 csi-azurefile-node-q9pmg                    30m (1%)      0 (0%)      60Mi (1%)        600Mi (13%)    6d9h
+  kube-system                 konnectivity-agent-7cd9d798c7-7qmhx         20m (1%)      1 (52%)     20Mi (0%)        1Gi (22%)      6d9h
+  kube-system                 kube-proxy-rblfs                            100m (5%)     0 (0%)      0 (0%)           0 (0%)         20h
+  tigera-kibana               tigera-secure-kb-c5c87fcb5-646s2            100m (5%)     100m (5%)   1Gi (22%)        1Gi (22%)      6d8h
+  tigera-packetcapture        tigera-packetcapture-7c694b96dc-66g49       0 (0%)        0 (0%)      0 (0%)           0 (0%)         6d8h
+  tigera-prometheus           alertmanager-calico-node-alertmanager-0     100m (5%)     100m (5%)   225Mi (4%)       50Mi (1%)      6d8h
+Allocated resources:
+  (Total limits may be over 100 percent, i.e., overcommitted.)
+  Resource           Requests      Limits
+  --------           --------      ------
+  cpu                680m (35%)    2700m (142%)
+  memory             2039Mi (44%)  5634Mi (123%)
+  ephemeral-storage  0 (0%)        0 (0%)
+  hugepages-1Gi      0 (0%)        0 (0%)
+  hugepages-2Mi      0 (0%)        0 (0%)
+Events:              <none>
+NAME      CREATED AT
+default   2022-12-10T17:34:16Z
+
+
+Name:               aks-nodepool1-20879919-vmss000002
+Roles:              agent
+Labels:             agentpool=nodepool1
+                    beta.kubernetes.io/arch=amd64
+                    beta.kubernetes.io/instance-type=Standard_DS2_v2
+                    beta.kubernetes.io/os=linux
+                    failure-domain.beta.kubernetes.io/region=eastus
+                    failure-domain.beta.kubernetes.io/zone=0
+                    kubernetes.azure.com/agentpool=nodepool1
+                    kubernetes.azure.com/cluster=MC_justin_justincluster_eastus
+                    kubernetes.azure.com/kubelet-identity-client-id=f0777ec4-c2f0-4a0f-af4b-254bceae57f2
+                    kubernetes.azure.com/mode=system
+                    kubernetes.azure.com/node-image-version=AKSUbuntu-1804gen2containerd-2022.12.01
+                    kubernetes.azure.com/os-sku=Ubuntu
+                    kubernetes.azure.com/role=agent
+                    kubernetes.azure.com/storageprofile=managed
+                    kubernetes.azure.com/storagetier=Premium_LRS
+                    kubernetes.io/arch=amd64
+                    kubernetes.io/hostname=aks-nodepool1-20879919-vmss000002
+                    kubernetes.io/os=linux
+                    kubernetes.io/role=agent
+                    node-role.kubernetes.io/agent=
+                    node.kubernetes.io/instance-type=Standard_DS2_v2
+                    storageprofile=managed
+                    storagetier=Premium_LRS
+                    topology.disk.csi.azure.com/zone=
+                    topology.kubernetes.io/region=eastus
+                    topology.kubernetes.io/zone=0
+Annotations:        csi.volume.kubernetes.io/nodeid:
+                      {"disk.csi.azure.com":"aks-nodepool1-20879919-vmss000002","file.csi.azure.com":"aks-nodepool1-20879919-vmss000002"}
+                    node.alpha.kubernetes.io/ttl: 0
+                    volumes.kubernetes.io/controller-managed-attach-detach: true
+CreationTimestamp:  Fri, 09 Dec 2022 11:25:21 +0000
+Taints:             <none>
+Unschedulable:      false
+Lease:
+  HolderIdentity:  aks-nodepool1-20879919-vmss000002
+  AcquireTime:     <unset>
+  RenewTime:       Thu, 15 Dec 2022 21:06:34 +0000
+Conditions:
+  Type                          Status  LastHeartbeatTime                 LastTransitionTime                Reason                          Message
+  ----                          ------  -----------------                 ------------------                ------                          -------
+  FrequentUnregisterNetDevice   False   Thu, 15 Dec 2022 21:04:47 +0000   Tue, 13 Dec 2022 19:13:48 +0000   NoFrequentUnregisterNetDevice   node is functioning properly
+  ContainerRuntimeProblem       False   Thu, 15 Dec 2022 21:04:47 +0000   Tue, 13 Dec 2022 19:13:48 +0000   ContainerRuntimeIsUp            container runtime service is up
+  FrequentKubeletRestart        False   Thu, 15 Dec 2022 21:04:47 +0000   Tue, 13 Dec 2022 19:13:48 +0000   NoFrequentKubeletRestart        kubelet is functioning properly
+  VMEventScheduled              False   Thu, 15 Dec 2022 21:04:47 +0000   Tue, 13 Dec 2022 19:13:48 +0000   NoVMEventScheduled              VM has no scheduled event
+  FrequentContainerdRestart     False   Thu, 15 Dec 2022 21:04:47 +0000   Tue, 13 Dec 2022 19:13:48 +0000   NoFrequentContainerdRestart     containerd is functioning properly
+  ReadonlyFilesystem            False   Thu, 15 Dec 2022 21:04:47 +0000   Tue, 13 Dec 2022 19:13:48 +0000   FilesystemIsNotReadOnly         Filesystem is not read-only
+  FrequentDockerRestart         False   Thu, 15 Dec 2022 21:04:47 +0000   Tue, 13 Dec 2022 19:13:48 +0000   NoFrequentDockerRestart         docker is functioning properly
+  KubeletProblem                False   Thu, 15 Dec 2022 21:04:47 +0000   Tue, 13 Dec 2022 19:13:48 +0000   KubeletIsUp                     kubelet service is up
+  FilesystemCorruptionProblem   False   Thu, 15 Dec 2022 21:04:47 +0000   Tue, 13 Dec 2022 19:13:48 +0000   FilesystemIsOK                  Filesystem is healthy
+  KernelDeadlock                False   Thu, 15 Dec 2022 21:04:47 +0000   Tue, 13 Dec 2022 19:13:48 +0000   KernelHasNoDeadlock             kernel has no deadlock
+  MemoryPressure                False   Thu, 15 Dec 2022 21:04:43 +0000   Wed, 14 Dec 2022 17:46:36 +0000   KubeletHasSufficientMemory      kubelet has sufficient memory available
+  DiskPressure                  False   Thu, 15 Dec 2022 21:04:43 +0000   Wed, 14 Dec 2022 17:46:36 +0000   KubeletHasNoDiskPressure        kubelet has no disk pressure
+  PIDPressure                   False   Thu, 15 Dec 2022 21:04:43 +0000   Wed, 14 Dec 2022 17:46:36 +0000   KubeletHasSufficientPID         kubelet has sufficient PID available
+  Ready                         True    Thu, 15 Dec 2022 21:04:43 +0000   Wed, 14 Dec 2022 17:46:36 +0000   KubeletReady                    kubelet is posting ready status. AppArmor enabled
+Addresses:
+  InternalIP:  10.224.0.62
+  Hostname:    aks-nodepool1-20879919-vmss000002
+Capacity:
+  cpu:                2
+  ephemeral-storage:  129886128Ki
+  hugepages-1Gi:      0
+  hugepages-2Mi:      0
+  memory:             7116276Ki
+  pods:               30
+Allocatable:
+  cpu:                1900m
+  ephemeral-storage:  119703055367
+  hugepages-1Gi:      0
+  hugepages-2Mi:      0
+  memory:             4670964Ki
+  pods:               30
+System Info:
+  Machine ID:                 21406f95b46b479cadad412acc6fe502
+  System UUID:                1569e5e4-1191-4e0c-bed8-be624661c40d
+  Boot ID:                    d02f3829-6b99-497c-a982-163f7bda12a7
+  Kernel Version:             5.4.0-1094-azure
+  OS Image:                   Ubuntu 18.04.6 LTS
+  Operating System:           linux
+  Architecture:               amd64
+  Container Runtime Version:  containerd://1.6.4+azure-4
+  Kubelet Version:            v1.23.12
+  Kube-Proxy Version:         v1.23.12
+ProviderID:                   azure:///subscriptions/2829a39c-98e4-4e04-90de-da5e4e6f36b9/resourceGroups/mc_justin_justincluster_eastus/providers/Microsoft.Compute/virtualMachineScaleSets/aks-nodepool1-20879919-vmss/virtualMachines/2
+Non-terminated Pods:          (11 in total)
+  Namespace                   Name                                          CPU Requests  CPU Limits  Memory Requests  Memory Limits  Age
+  ---------                   ----                                          ------------  ----------  ---------------  -------------  ---
+  calico-system               calico-node-vlgj9                             0 (0%)        0 (0%)      0 (0%)           0 (0%)         5d3h
+  calico-system               calico-typha-75d49dc97d-ns6bn                 0 (0%)        0 (0%)      0 (0%)           0 (0%)         6d8h
+  kube-system                 ama-logs-vfccm                                150m (7%)     1 (52%)     550Mi (12%)      1774Mi (38%)   6d9h
+  kube-system                 azure-ip-masq-agent-bsnpt                     100m (5%)     500m (26%)  50Mi (1%)        250Mi (5%)     6d9h
+  kube-system                 cloud-node-manager-jljzf                      50m (2%)      0 (0%)      50Mi (1%)        512Mi (11%)    6d9h
+  kube-system                 csi-azuredisk-node-npsfl                      30m (1%)      0 (0%)      60Mi (1%)        400Mi (8%)     6d9h
+  kube-system                 csi-azurefile-node-l5bfs                      30m (1%)      0 (0%)      60Mi (1%)        600Mi (13%)    6d9h
+  kube-system                 kube-proxy-pg6b7                              100m (5%)     0 (0%)      0 (0%)           0 (0%)         20h
+  tigera-eck-operator         elastic-operator-0                            100m (5%)     1 (52%)     512Mi (11%)      512Mi (11%)    6d8h
+  tigera-prometheus           alertmanager-calico-node-alertmanager-2       100m (5%)     100m (5%)   225Mi (4%)       50Mi (1%)      6d8h
+  tigera-prometheus           calico-prometheus-operator-68cbff4f5-wpb6q    100m (5%)     200m (10%)  50Mi (1%)        100Mi (2%)     6d9h
+Allocated resources:
+  (Total limits may be over 100 percent, i.e., overcommitted.)
+  Resource           Requests      Limits
+  --------           --------      ------
+  cpu                760m (40%)    2800m (147%)
+  memory             1557Mi (34%)  4198Mi (92%)
+  ephemeral-storage  0 (0%)        0 (0%)
+  hugepages-1Gi      0 (0%)        0 (0%)
+  hugepages-2Mi      0 (0%)        0 (0%)
+Events:              <none>
+apiVersion: v1
+items:
+- apiVersion: operator.tigera.io/v1
+  kind: Installation
+  metadata:
+    creationTimestamp: "2022-12-09T12:15:05Z"
+    generation: 2
+    name: default
+    resourceVersion: "17190"
+    uid: 36c7a3f4-a549-4465-8631-17abeee703c0
+  spec:
+    calicoNetwork:
+      bgp: Disabled
+      linuxDataplane: Iptables
+    cni:
+      ipam:
+        type: AzureVNET
+      type: AzureVNET
+    controlPlaneReplicas: 2
+    flexVolumePath: /etc/kubernetes/volumeplugins/
+    imagePullSecrets:
+    - name: tigera-pull-secret
+    kubernetesProvider: AKS
+    nodeUpdateStrategy:
+      rollingUpdate:
+        maxUnavailable: 1
+      type: RollingUpdate
+    nonPrivileged: Disabled
+    typhaAffinity:
+      nodeAffinity:
+        requiredDuringSchedulingIgnoredDuringExecution:
+          nodeSelectorTerms:
+          - matchExpressions:
+            - key: type
+              operator: NotIn
+              values:
+              - virtual-node
+            - key: kubernetes.azure.com/cluster
+              operator: Exists
+    variant: TigeraSecureEnterprise
+  status:
+    computed:
+      calicoNetwork:
+        bgp: Disabled
+        linuxDataplane: Iptables
+      cni:
+        ipam:
+          type: AzureVNET
+        type: AzureVNET
+      controlPlaneReplicas: 2
+      flexVolumePath: /etc/kubernetes/volumeplugins/
+      imagePullSecrets:
+      - name: tigera-pull-secret
+      kubernetesProvider: AKS
+      nodeUpdateStrategy:
+        rollingUpdate:
+          maxUnavailable: 1
+        type: RollingUpdate
+      nonPrivileged: Disabled
+      typhaAffinity:
+        nodeAffinity:
+          requiredDuringSchedulingIgnoredDuringExecution:
+            nodeSelectorTerms:
+            - matchExpressions:
+              - key: type
+                operator: NotIn
+                values:
+                - virtual-node
+              - key: kubernetes.azure.com/cluster
+                operator: Exists
+      variant: TigeraSecureEnterprise
+    mtu: 1500
+    variant: TigeraSecureEnterprise
+kind: List
+metadata:
+  resourceVersion: ""
+  selfLink: ""
+
+-----------------------------------------------------
+
+Tigera Status 
+-----------------------------------------------------
+
+
+
+Name:               aks-nodepool1-20879919-vmss000003
+Roles:              agent
+Labels:             agentpool=nodepool1
+                    beta.kubernetes.io/arch=amd64
+                    beta.kubernetes.io/instance-type=Standard_DS2_v2
+                    beta.kubernetes.io/os=linux
+                    failure-domain.beta.kubernetes.io/region=eastus
+                    failure-domain.beta.kubernetes.io/zone=0
+                    kubernetes.azure.com/agentpool=nodepool1
+                    kubernetes.azure.com/cluster=MC_justin_justincluster_eastus
+                    kubernetes.azure.com/kubelet-identity-client-id=f0777ec4-c2f0-4a0f-af4b-254bceae57f2
+                    kubernetes.azure.com/mode=system
+                    kubernetes.azure.com/node-image-version=AKSUbuntu-1804gen2containerd-2022.12.01
+                    kubernetes.azure.com/os-sku=Ubuntu
+                    kubernetes.azure.com/role=agent
+                    kubernetes.azure.com/storageprofile=managed
+                    kubernetes.azure.com/storagetier=Premium_LRS
+                    kubernetes.io/arch=amd64
+                    kubernetes.io/hostname=aks-nodepool1-20879919-vmss000003
+                    kubernetes.io/os=linux
+                    kubernetes.io/role=agent
+                    node-role.kubernetes.io/agent=
+                    node.kubernetes.io/instance-type=Standard_DS2_v2
+                    storageprofile=managed
+                    storagetier=Premium_LRS
+                    topology.disk.csi.azure.com/zone=
+                    topology.kubernetes.io/region=eastus
+                    topology.kubernetes.io/zone=0
+Annotations:        csi.volume.kubernetes.io/nodeid:
+                      {"disk.csi.azure.com":"aks-nodepool1-20879919-vmss000003","file.csi.azure.com":"aks-nodepool1-20879919-vmss000003"}
+                    node.alpha.kubernetes.io/ttl: 0
+                    volumes.kubernetes.io/controller-managed-attach-detach: true
+CreationTimestamp:  Fri, 09 Dec 2022 11:25:16 +0000
+Taints:             <none>
+Unschedulable:      false
+Lease:
+  HolderIdentity:  aks-nodepool1-20879919-vmss000003
+  AcquireTime:     <unset>
+  RenewTime:       Thu, 15 Dec 2022 21:06:34 +0000
+Conditions:
+  Type                          Status  LastHeartbeatTime                 LastTransitionTime                Reason                          Message
+  ----                          ------  -----------------                 ------------------                ------                          -------
+  FrequentContainerdRestart     False   Thu, 15 Dec 2022 21:04:39 +0000   Tue, 13 Dec 2022 19:13:50 +0000   NoFrequentContainerdRestart     containerd is functioning properly
+  ContainerRuntimeProblem       False   Thu, 15 Dec 2022 21:04:39 +0000   Tue, 13 Dec 2022 19:13:50 +0000   ContainerRuntimeIsUp            container runtime service is up
+  FrequentUnregisterNetDevice   False   Thu, 15 Dec 2022 21:04:39 +0000   Tue, 13 Dec 2022 19:13:50 +0000   NoFrequentUnregisterNetDevice   node is functioning properly
+  FilesystemCorruptionProblem   False   Thu, 15 Dec 2022 21:04:39 +0000   Tue, 13 Dec 2022 19:13:50 +0000   FilesystemIsOK                  Filesystem is healthy
+  KubeletProblem                False   Thu, 15 Dec 2022 21:04:39 +0000   Tue, 13 Dec 2022 19:13:50 +0000   KubeletIsUp                     kubelet service is up
+  VMEventScheduled              False   Thu, 15 Dec 2022 21:04:39 +0000   Tue, 13 Dec 2022 19:13:50 +0000   NoVMEventScheduled              VM has no scheduled event
+  KernelDeadlock                False   Thu, 15 Dec 2022 21:04:39 +0000   Tue, 13 Dec 2022 19:13:50 +0000   KernelHasNoDeadlock             kernel has no deadlock
+  FrequentKubeletRestart        False   Thu, 15 Dec 2022 21:04:39 +0000   Tue, 13 Dec 2022 19:13:50 +0000   NoFrequentKubeletRestart        kubelet is functioning properly
+  ReadonlyFilesystem            False   Thu, 15 Dec 2022 21:04:39 +0000   Tue, 13 Dec 2022 19:13:50 +0000   FilesystemIsNotReadOnly         Filesystem is not read-only
+  FrequentDockerRestart         False   Thu, 15 Dec 2022 21:04:39 +0000   Tue, 13 Dec 2022 19:13:50 +0000   NoFrequentDockerRestart         docker is functioning properly
+  MemoryPressure                False   Thu, 15 Dec 2022 21:05:54 +0000   Wed, 14 Dec 2022 17:46:42 +0000   KubeletHasSufficientMemory      kubelet has sufficient memory available
+  DiskPressure                  False   Thu, 15 Dec 2022 21:05:54 +0000   Wed, 14 Dec 2022 17:46:42 +0000   KubeletHasNoDiskPressure        kubelet has no disk pressure
+  PIDPressure                   False   Thu, 15 Dec 2022 21:05:54 +0000   Wed, 14 Dec 2022 17:46:42 +0000   KubeletHasSufficientPID         kubelet has sufficient PID available
+  Ready                         True    Thu, 15 Dec 2022 21:05:54 +0000   Wed, 14 Dec 2022 17:46:42 +0000   KubeletReady                    kubelet is posting ready status. AppArmor enabled
+Addresses:
+  InternalIP:  10.224.0.91
+  Hostname:    aks-nodepool1-20879919-vmss000003
+Capacity:
+  cpu:                2
+  ephemeral-storage:  129886128Ki
+  hugepages-1Gi:      0
+  hugepages-2Mi:      0
+  memory:             7116276Ki
+  pods:               30
+Allocatable:
+  cpu:                1900m
+  ephemeral-storage:  119703055367
+  hugepages-1Gi:      0
+  hugepages-2Mi:      0
+  memory:             4670964Ki
+  pods:               30
+System Info:
+  Machine ID:                 f5d9f8df4a6149a48ff3afa2b312eaf1
+  System UUID:                bebd5882-3a5f-4dfe-b380-ced82a48152e
+  Boot ID:                    24a70ff4-7871-4569-ba72-0c5f0acf98a9
+  Kernel Version:             5.4.0-1094-azure
+  OS Image:                   Ubuntu 18.04.6 LTS
+  Operating System:           linux
+  Architecture:               amd64
+  Container Runtime Version:  containerd://1.6.4+azure-4
+  Kubelet Version:            v1.23.12
+  Kube-Proxy Version:         v1.23.12
+ProviderID:                   azure:///subscriptions/2829a39c-98e4-4e04-90de-da5e4e6f36b9/resourceGroups/mc_justin_justincluster_eastus/providers/Microsoft.Compute/virtualMachineScaleSets/aks-nodepool1-20879919-vmss/virtualMachines/3
+Non-terminated Pods:          (13 in total)
+  Namespace                   Name                                   CPU Requests  CPU Limits  Memory Requests  Memory Limits  Age
+  ---------                   ----                                   ------------  ----------  ---------------  -------------  ---
+  calico-system               calico-node-6jdvz                      0 (0%)        0 (0%)      0 (0%)           0 (0%)         5d3h
+  kube-system                 ama-logs-47pk4                         150m (7%)     1 (52%)     550Mi (12%)      1774Mi (38%)   6d9h
+  kube-system                 ama-logs-rs-6447b54758-h8ld5           150m (7%)     1 (52%)     250Mi (5%)       1280Mi (28%)   6d9h
+  kube-system                 azure-ip-masq-agent-bftpx              100m (5%)     500m (26%)  50Mi (1%)        250Mi (5%)     6d9h
+  kube-system                 cloud-node-manager-qzl92               50m (2%)      0 (0%)      50Mi (1%)        512Mi (11%)    6d9h
+  kube-system                 coredns-autoscaler-5589fb5654-lhpmh    20m (1%)      200m (10%)  10Mi (0%)        500Mi (10%)    6d9h
+  kube-system                 coredns-b4854dd98-7788w                100m (5%)     3 (157%)    70Mi (1%)        500Mi (10%)    6d9h
+  kube-system                 csi-azuredisk-node-dp5xj               30m (1%)      0 (0%)      60Mi (1%)        400Mi (8%)     6d9h
+  kube-system                 csi-azurefile-node-bpkrn               30m (1%)      0 (0%)      60Mi (1%)        600Mi (13%)    6d9h
+  kube-system                 kube-proxy-g4wpz                       100m (5%)     0 (0%)      0 (0%)           0 (0%)         20h
+  kube-system                 metrics-server-f77b4cd8-gfpz9          44m (2%)      1 (52%)     55Mi (1%)        2000Mi (43%)   6d9h
+  kube-system                 metrics-server-f77b4cd8-rmjm6          44m (2%)      1 (52%)     55Mi (1%)        2000Mi (43%)   6d9h
+  tigera-kibana               tigera-secure-kb-c5c87fcb5-rkgn7       100m (5%)     100m (5%)   1Gi (22%)        1Gi (22%)      6d8h
+Allocated resources:
+  (Total limits may be over 100 percent, i.e., overcommitted.)
+  Resource           Requests      Limits
+  --------           --------      ------
+  cpu                918m (48%)    7800m (410%)
+  memory             2234Mi (48%)  10840Mi (237%)
+  ephemeral-storage  0 (0%)        0 (0%)
+  hugepages-1Gi      0 (0%)        0 (0%)
+  hugepages-2Mi      0 (0%)        0 (0%)
+Events:              <none>
+
+
+Name:               aks-nodepool1-20879919-vmss000004
+Roles:              agent
+Labels:             agentpool=nodepool1
+                    beta.kubernetes.io/arch=amd64
+                    beta.kubernetes.io/instance-type=Standard_DS2_v2
+                    beta.kubernetes.io/os=linux
+                    failure-domain.beta.kubernetes.io/region=eastus
+                    failure-domain.beta.kubernetes.io/zone=0
+                    kubernetes.azure.com/agentpool=nodepool1
+                    kubernetes.azure.com/cluster=MC_justin_justincluster_eastus
+                    kubernetes.azure.com/kubelet-identity-client-id=f0777ec4-c2f0-4a0f-af4b-254bceae57f2
+                    kubernetes.azure.com/mode=system
+                    kubernetes.azure.com/node-image-version=AKSUbuntu-1804gen2containerd-2022.12.01
+                    kubernetes.azure.com/os-sku=Ubuntu
+                    kubernetes.azure.com/role=agent
+                    kubernetes.azure.com/storageprofile=managed
+                    kubernetes.azure.com/storagetier=Premium_LRS
+                    kubernetes.io/arch=amd64
+                    kubernetes.io/hostname=aks-nodepool1-20879919-vmss000004
+                    kubernetes.io/os=linux
+                    kubernetes.io/role=agent
+                    node-role.kubernetes.io/agent=
+                    node.kubernetes.io/instance-type=Standard_DS2_v2
+                    storageprofile=managed
+                    storagetier=Premium_LRS
+                    topology.disk.csi.azure.com/zone=
+                    topology.kubernetes.io/region=eastus
+                    topology.kubernetes.io/zone=0
+Annotations:        csi.volume.kubernetes.io/nodeid:
+                      {"disk.csi.azure.com":"aks-nodepool1-20879919-vmss000004","file.csi.azure.com":"aks-nodepool1-20879919-vmss000004"}
+                    node.alpha.kubernetes.io/ttl: 0
+                    volumes.kubernetes.io/controller-managed-attach-detach: true
+CreationTimestamp:  Fri, 09 Dec 2022 11:25:24 +0000
+Taints:             <none>
+Unschedulable:      false
+Lease:
+  HolderIdentity:  aks-nodepool1-20879919-vmss000004
+  AcquireTime:     <unset>
+  RenewTime:       Thu, 15 Dec 2022 21:06:34 +0000
+Conditions:
+  Type                          Status  LastHeartbeatTime                 LastTransitionTime                Reason                          Message
+  ----                          ------  -----------------                 ------------------                ------                          -------
+  VMEventScheduled              False   Thu, 15 Dec 2022 21:04:46 +0000   Tue, 13 Dec 2022 19:13:53 +0000   NoVMEventScheduled              VM has no scheduled event
+  FrequentContainerdRestart     False   Thu, 15 Dec 2022 21:04:46 +0000   Tue, 13 Dec 2022 19:13:53 +0000   NoFrequentContainerdRestart     containerd is functioning properly
+  ReadonlyFilesystem            False   Thu, 15 Dec 2022 21:04:46 +0000   Tue, 13 Dec 2022 19:13:53 +0000   FilesystemIsNotReadOnly         Filesystem is not read-only
+  KubeletProblem                False   Thu, 15 Dec 2022 21:04:46 +0000   Tue, 13 Dec 2022 19:13:53 +0000   KubeletIsUp                     kubelet service is up
+  KernelDeadlock                False   Thu, 15 Dec 2022 21:04:46 +0000   Tue, 13 Dec 2022 19:13:53 +0000   KernelHasNoDeadlock             kernel has no deadlock
+  FrequentDockerRestart         False   Thu, 15 Dec 2022 21:04:46 +0000   Tue, 13 Dec 2022 19:13:53 +0000   NoFrequentDockerRestart         docker is functioning properly
+  FrequentUnregisterNetDevice   False   Thu, 15 Dec 2022 21:04:46 +0000   Tue, 13 Dec 2022 19:13:53 +0000   NoFrequentUnregisterNetDevice   node is functioning properly
+  FrequentKubeletRestart        False   Thu, 15 Dec 2022 21:04:46 +0000   Tue, 13 Dec 2022 19:13:53 +0000   NoFrequentKubeletRestart        kubelet is functioning properly
+  FilesystemCorruptionProblem   False   Thu, 15 Dec 2022 21:04:46 +0000   Tue, 13 Dec 2022 19:13:53 +0000   FilesystemIsOK                  Filesystem is healthy
+  ContainerRuntimeProblem       False   Thu, 15 Dec 2022 21:04:46 +0000   Tue, 13 Dec 2022 19:13:53 +0000   ContainerRuntimeIsUp            container runtime service is up
+  MemoryPressure                False   Thu, 15 Dec 2022 21:05:50 +0000   Fri, 09 Dec 2022 11:25:24 +0000   KubeletHasSufficientMemory      kubelet has sufficient memory available
+  DiskPressure                  False   Thu, 15 Dec 2022 21:05:50 +0000   Fri, 09 Dec 2022 11:25:24 +0000   KubeletHasNoDiskPressure        kubelet has no disk pressure
+  PIDPressure                   False   Thu, 15 Dec 2022 21:05:50 +0000   Fri, 09 Dec 2022 11:25:24 +0000   KubeletHasSufficientPID         kubelet has sufficient PID available
+  Ready                         True    Thu, 15 Dec 2022 21:05:50 +0000   Fri, 09 Dec 2022 11:25:35 +0000   KubeletReady                    kubelet is posting ready status. AppArmor enabled
+Addresses:
+  InternalIP:  10.224.0.120
+  Hostname:    aks-nodepool1-20879919-vmss000004
+Capacity:
+  cpu:                2
+  ephemeral-storage:  129886128Ki
+  hugepages-1Gi:      0
+  hugepages-2Mi:      0
+  memory:             7116276Ki
+  pods:               30
+Allocatable:
+  cpu:                1900m
+  ephemeral-storage:  119703055367
+  hugepages-1Gi:      0
+  hugepages-2Mi:      0
+  memory:             4670964Ki
+  pods:               30
+System Info:
+  Machine ID:                 28c8df8109e94a60911ee6295c990c00
+  System UUID:                a0c4382e-9064-4be9-9d7d-3a9a88a8cf2a
+  Boot ID:                    3ab3f95a-f838-4cad-abe1-a0c7b23afc65
+  Kernel Version:             5.4.0-1094-azure
+  OS Image:                   Ubuntu 18.04.6 LTS
+  Operating System:           linux
+  Architecture:               amd64
+  Container Runtime Version:  containerd://1.6.4+azure-4
+  Kubelet Version:            v1.23.12
+  Kube-Proxy Version:         v1.23.12
+ProviderID:                   azure:///subscriptions/2829a39c-98e4-4e04-90de-da5e4e6f36b9/resourceGroups/mc_justin_justincluster_eastus/providers/Microsoft.Compute/virtualMachineScaleSets/aks-nodepool1-20879919-vmss/virtualMachines/4
+Non-terminated Pods:          (11 in total)
+  Namespace                   Name                                   CPU Requests  CPU Limits  Memory Requests  Memory Limits  Age
+  ---------                   ----                                   ------------  ----------  ---------------  -------------  ---
+  calico-system               calico-node-vbkcj                      0 (0%)        0 (0%)      0 (0%)           0 (0%)         5d3h
+  kube-system                 ama-logs-fvgfb                         150m (7%)     1 (52%)     550Mi (12%)      1774Mi (38%)   6d9h
+  kube-system                 azure-ip-masq-agent-zts7k              100m (5%)     500m (26%)  50Mi (1%)        250Mi (5%)     6d9h
+  kube-system                 cloud-node-manager-bprvd               50m (2%)      0 (0%)      50Mi (1%)        512Mi (11%)    6d9h
+  kube-system                 csi-azuredisk-node-z686k               30m (1%)      0 (0%)      60Mi (1%)        400Mi (8%)     6d9h
+  kube-system                 csi-azurefile-node-84vgx               30m (1%)      0 (0%)      60Mi (1%)        600Mi (13%)    6d9h
+  kube-system                 konnectivity-agent-7cd9d798c7-zxgx7    20m (1%)      1 (52%)     20Mi (0%)        1Gi (22%)      6d9h
+  kube-system                 kube-proxy-gs82v                       100m (5%)     0 (0%)      0 (0%)           0 (0%)         20h
+  tigera-operator             tigera-operator-8567f6c6-c7bf4         0 (0%)        0 (0%)      0 (0%)           0 (0%)         6d9h
+  tigera-prometheus           prometheus-calico-node-prometheus-0    100m (5%)     100m (5%)   425Mi (9%)       50Mi (1%)      6d8h
+  tigera-system               tigera-apiserver-6654f9db46-575vb      0 (0%)        0 (0%)      0 (0%)           0 (0%)         6d8h
+Allocated resources:
+  (Total limits may be over 100 percent, i.e., overcommitted.)
+  Resource           Requests      Limits
+  --------           --------      ------
+  cpu                580m (30%)    2600m (136%)
+  memory             1215Mi (26%)  4610Mi (101%)
+  ephemeral-storage  0 (0%)        0 (0%)
+  hugepages-1Gi      0 (0%)        0 (0%)
+  hugepages-2Mi      0 (0%)        0 (0%)
+Events:              <none>
+
+-----------------------------------------------------
+
+Cluster Pods 
+-----------------------------------------------------
+
+NAME                  AVAILABLE   PROGRESSING   DEGRADED   SINCE
+apiserver             True        False         False      6d8h
+calico                True        False         False      5d3h
+compliance                                      True       
+intrusion-detection                             True       
+log-collector                                   True       
+log-storage           False       False         True       6d8h
+manager                                         True       
+monitor               True        False         False      6d8h
+
+-----------------------------------------------------
+
+Cluster Info 
+-----------------------------------------------------
+
+NAMESPACE              NAME                                         READY   STATUS    RESTARTS        AGE    IP             NODE                                NOMINATED NODE   READINESS GATES
+calico-system          calico-kube-controllers-7d4bd6df6f-6dvbp     1/1     Running   0               6d8h   10.224.0.49    aks-nodepool1-20879919-vmss000001   <none>           <none>
+calico-system          calico-node-2rc7m                            1/1     Running   0               5d3h   10.224.0.33    aks-nodepool1-20879919-vmss000001   <none>           <none>
+calico-system          calico-node-6jdvz                            1/1     Running   0               5d3h   10.224.0.91    aks-nodepool1-20879919-vmss000003   <none>           <none>
+calico-system          calico-node-9qkvg                            1/1     Running   0               5d3h   10.224.0.4     aks-nodepool1-20879919-vmss000000   <none>           <none>
+calico-system          calico-node-vbkcj                            1/1     Running   0               5d3h   10.224.0.120   aks-nodepool1-20879919-vmss000004   <none>           <none>
+calico-system          calico-node-vlgj9                            1/1     Running   0               5d3h   10.224.0.62    aks-nodepool1-20879919-vmss000002   <none>           <none>
+calico-system          calico-typha-75d49dc97d-lrfb6                1/1     Running   0               6d8h   10.224.0.33    aks-nodepool1-20879919-vmss000001   <none>           <none>
+calico-system          calico-typha-75d49dc97d-ns6bn                1/1     Running   0               6d8h   10.224.0.62    aks-nodepool1-20879919-vmss000002   <none>           <none>
+calico-system          calico-typha-75d49dc97d-xc24p                1/1     Running   0               6d8h   10.224.0.4     aks-nodepool1-20879919-vmss000000   <none>           <none>
+kube-system            ama-logs-47pk4                               2/2     Running   0               6d9h   10.224.0.106   aks-nodepool1-20879919-vmss000003   <none>           <none>
+kube-system            ama-logs-fvgfb                               2/2     Running   0               6d9h   10.224.0.128   aks-nodepool1-20879919-vmss000004   <none>           <none>
+kube-system            ama-logs-pwwbx                               2/2     Running   0               6d9h   10.224.0.46    aks-nodepool1-20879919-vmss000001   <none>           <none>
+kube-system            ama-logs-q9569                               2/2     Running   0               6d9h   10.224.0.14    aks-nodepool1-20879919-vmss000000   <none>           <none>
+kube-system            ama-logs-rs-6447b54758-h8ld5                 1/1     Running   0               6d9h   10.224.0.108   aks-nodepool1-20879919-vmss000003   <none>           <none>
+kube-system            ama-logs-vfccm                               2/2     Running   0               6d9h   10.224.0.64    aks-nodepool1-20879919-vmss000002   <none>           <none>
+kube-system            azure-ip-masq-agent-bftpx                    1/1     Running   0               6d9h   10.224.0.91    aks-nodepool1-20879919-vmss000003   <none>           <none>
+kube-system            azure-ip-masq-agent-bsnpt                    1/1     Running   0               6d9h   10.224.0.62    aks-nodepool1-20879919-vmss000002   <none>           <none>
+kube-system            azure-ip-masq-agent-fttnp                    1/1     Running   0               6d9h   10.224.0.33    aks-nodepool1-20879919-vmss000001   <none>           <none>
+kube-system            azure-ip-masq-agent-pq6bc                    1/1     Running   0               6d9h   10.224.0.4     aks-nodepool1-20879919-vmss000000   <none>           <none>
+kube-system            azure-ip-masq-agent-zts7k                    1/1     Running   0               6d9h   10.224.0.120   aks-nodepool1-20879919-vmss000004   <none>           <none>
+kube-system            cloud-node-manager-bprvd                     1/1     Running   0               6d9h   10.224.0.120   aks-nodepool1-20879919-vmss000004   <none>           <none>
+kube-system            cloud-node-manager-fwxl4                     1/1     Running   0               6d9h   10.224.0.33    aks-nodepool1-20879919-vmss000001   <none>           <none>
+kube-system            cloud-node-manager-jljzf                     1/1     Running   0               6d9h   10.224.0.62    aks-nodepool1-20879919-vmss000002   <none>           <none>
+kube-system            cloud-node-manager-qzl92                     1/1     Running   0               6d9h   10.224.0.91    aks-nodepool1-20879919-vmss000003   <none>           <none>
+kube-system            cloud-node-manager-v8nbp                     1/1     Running   0               6d9h   10.224.0.4     aks-nodepool1-20879919-vmss000000   <none>           <none>
+kube-system            coredns-autoscaler-5589fb5654-lhpmh          1/1     Running   0               6d9h   10.224.0.110   aks-nodepool1-20879919-vmss000003   <none>           <none>
+kube-system            coredns-b4854dd98-7788w                      1/1     Running   0               6d9h   10.224.0.112   aks-nodepool1-20879919-vmss000003   <none>           <none>
+kube-system            coredns-b4854dd98-zx4b4                      1/1     Running   0               6d9h   10.224.0.17    aks-nodepool1-20879919-vmss000000   <none>           <none>
+kube-system            csi-azuredisk-node-78kn9                     3/3     Running   0               6d9h   10.224.0.4     aks-nodepool1-20879919-vmss000000   <none>           <none>
+kube-system            csi-azuredisk-node-dp5xj                     3/3     Running   0               6d9h   10.224.0.91    aks-nodepool1-20879919-vmss000003   <none>           <none>
+kube-system            csi-azuredisk-node-lwj9q                     3/3     Running   0               6d9h   10.224.0.33    aks-nodepool1-20879919-vmss000001   <none>           <none>
+kube-system            csi-azuredisk-node-npsfl                     3/3     Running   0               6d9h   10.224.0.62    aks-nodepool1-20879919-vmss000002   <none>           <none>
+kube-system            csi-azuredisk-node-z686k                     3/3     Running   0               6d9h   10.224.0.120   aks-nodepool1-20879919-vmss000004   <none>           <none>
+kube-system            csi-azurefile-node-84vgx                     3/3     Running   0               6d9h   10.224.0.120   aks-nodepool1-20879919-vmss000004   <none>           <none>
+kube-system            csi-azurefile-node-bpkrn                     3/3     Running   0               6d9h   10.224.0.91    aks-nodepool1-20879919-vmss000003   <none>           <none>
+kube-system            csi-azurefile-node-l5bfs                     3/3     Running   0               6d9h   10.224.0.62    aks-nodepool1-20879919-vmss000002   <none>           <none>
+kube-system            csi-azurefile-node-q9pmg                     3/3     Running   0               6d9h   10.224.0.33    aks-nodepool1-20879919-vmss000001   <none>           <none>
+kube-system            csi-azurefile-node-wjxl9                     3/3     Running   0               6d9h   10.224.0.4     aks-nodepool1-20879919-vmss000000   <none>           <none>
+kube-system            konnectivity-agent-7cd9d798c7-7qmhx          1/1     Running   0               6d9h   10.224.0.54    aks-nodepool1-20879919-vmss000001   <none>           <none>
+kube-system            konnectivity-agent-7cd9d798c7-zxgx7          1/1     Running   0               6d9h   10.224.0.130   aks-nodepool1-20879919-vmss000004   <none>           <none>
+kube-system            kube-proxy-g4wpz                             1/1     Running   0               20h    10.224.0.91    aks-nodepool1-20879919-vmss000003   <none>           <none>
+kube-system            kube-proxy-gs82v                             1/1     Running   0               20h    10.224.0.120   aks-nodepool1-20879919-vmss000004   <none>           <none>
+kube-system            kube-proxy-lgnmx                             1/1     Running   0               20h    10.224.0.4     aks-nodepool1-20879919-vmss000000   <none>           <none>
+kube-system            kube-proxy-pg6b7                             1/1     Running   0               20h    10.224.0.62    aks-nodepool1-20879919-vmss000002   <none>           <none>
+kube-system            kube-proxy-rblfs                             1/1     Running   0               20h    10.224.0.33    aks-nodepool1-20879919-vmss000001   <none>           <none>
+kube-system            metrics-server-f77b4cd8-gfpz9                1/1     Running   0               6d9h   10.224.0.104   aks-nodepool1-20879919-vmss000003   <none>           <none>
+kube-system            metrics-server-f77b4cd8-rmjm6                1/1     Running   0               6d9h   10.224.0.117   aks-nodepool1-20879919-vmss000003   <none>           <none>
+tigera-eck-operator    elastic-operator-0                           1/1     Running   1 (4d16h ago)   6d8h   10.224.0.69    aks-nodepool1-20879919-vmss000002   <none>           <none>
+tigera-elasticsearch   tigera-secure-es-7f5dee596fef130f-0          0/1     Pending   0               6d8h   <none>         <none>                              <none>           <none>
+tigera-kibana          tigera-secure-kb-c5c87fcb5-646s2             0/1     Running   0               6d8h   10.224.0.41    aks-nodepool1-20879919-vmss000001   <none>           <none>
+tigera-kibana          tigera-secure-kb-c5c87fcb5-rkgn7             0/1     Running   0               6d8h   10.224.0.111   aks-nodepool1-20879919-vmss000003   <none>           <none>
+tigera-operator        tigera-operator-8567f6c6-c7bf4               1/1     Running   0               6d9h   10.224.0.120   aks-nodepool1-20879919-vmss000004   <none>           <none>
+tigera-packetcapture   tigera-packetcapture-7c694b96dc-66g49        1/1     Running   0               6d8h   10.224.0.35    aks-nodepool1-20879919-vmss000001   <none>           <none>
+tigera-prometheus      alertmanager-calico-node-alertmanager-0      2/2     Running   0               6d8h   10.224.0.57    aks-nodepool1-20879919-vmss000001   <none>           <none>
+tigera-prometheus      alertmanager-calico-node-alertmanager-1      2/2     Running   0               6d8h   10.224.0.11    aks-nodepool1-20879919-vmss000000   <none>           <none>
+tigera-prometheus      alertmanager-calico-node-alertmanager-2      2/2     Running   0               6d8h   10.224.0.78    aks-nodepool1-20879919-vmss000002   <none>           <none>
+tigera-prometheus      calico-prometheus-operator-68cbff4f5-wpb6q   1/1     Running   0               6d9h   10.224.0.75    aks-nodepool1-20879919-vmss000002   <none>           <none>
+tigera-prometheus      prometheus-calico-node-prometheus-0          3/3     Running   0               6d8h   10.224.0.148   aks-nodepool1-20879919-vmss000004   <none>           <none>
+tigera-system          tigera-apiserver-6654f9db46-575vb            2/2     Running   [0;32m0Kubernetes control plane        [0m        is running at 6d8h[0;33m   https://justinclus-justin-2829a3-214e3fa5.hcp.eastus.azmk8s.io:44310.224.0.146[0m   
+aks-nodepool1-20879919-vmss000004[0;32m   CoreDNS<none>[0m         is running at    [0;33m<none>https://justinclus-justin-2829a3-214e3fa5.hcp.eastus.azmk8s.io:443/api/v1/namespaces/kube-system/services/kube-dns:dns/proxy
+[0mtigera-system
+        [0;32m  Metrics-servertigera-apiserver-6654f9db46-5nhb7[0m            2/2 is running at      [0;33mRunninghttps://justinclus-justin-2829a3-214e3fa5.hcp.eastus.azmk8s.io:443/api/v1/namespaces/kube-system/services/https:metrics-server:/proxy   [0m0
+               6d8h
+To further debug and diagnose cluster problems, use 'kubectl cluster-info dump'.
+   10.224.0.18    aks-nodepool1-20879919-vmss000000   <none>           <none>
+
+
+-----------------------------------------------------
+-----------------------------------------------------
+
+
+Kubernetes Network Policy 
+-----------------------------------------------------
+Cluster Services 
+-----------------------------------------------------
+
+
+NAMESPACE     NAME                 POD-SELECTOR             AGE
+kube-system   konnectivity-agent   app=konnectivity-agent   6d9h
+
+-----------------------------------------------------
+
+Calico Network Policy 
+-----------------------------------------------------
+
+NAMESPACE              NAME                                TYPE        CLUSTER-IP     EXTERNAL-IP   PORT(S)                      AGE
+calico-system          calico-kube-controllers-metrics     ClusterIP   10.0.70.204    <none>        9094/TCP                     6d8h
+calico-system          calico-node-metrics                 ClusterIP   10.0.167.144   <none>        9081/TCP,9900/TCP            6d8h
+calico-system          calico-typha                        ClusterIP   10.0.201.125   <none>        5473/TCP                     6d8h
+default                kubernetes                          ClusterIP   10.0.0.1       <none>        443/TCP                      6d9h
+kube-system            kube-dns                            ClusterIP   10.0.0.10      <none>        53/UDP,53/TCP                6d9h
+kube-system            metrics-server                      ClusterIP   10.0.123.167   <none>        443/TCP                      6d9h
+tigera-elasticsearch   tigera-secure-es-7f5dee596fef130f   ClusterIP   None           <none>        9200/TCP                     6d8h
+tigera-elasticsearch   tigera-secure-es-http               ClusterIP   10.0.226.177   <none>        9200/TCP                     6d8h
+tigera-elasticsearch   tigera-secure-es-transport          ClusterIP   None           <none>        9300/TCP                     6d8h
+tigera-kibana          tigera-secure-kb-http               ClusterIP   10.0.34.236    <none>        5601/TCP                     6d8h
+tigera-packetcapture   tigera-packetcapture                ClusterIP   10.0.97.102    <none>        443/TCP                      6d8h
+tigera-prometheus      alertmanager-operated               ClusterIP   None           <none>        9093/TCP,9094/TCP,9094/UDP   6d8h
+tigera-prometheus      calico-node-alertmanager            ClusterIP   10.0.95.21     <none>        9093/TCP                     6d8h
+tigera-prometheus      prometheus-http-api                 ClusterIP   10.0.84.156    <none>        9090/TCP                     6d8h
+tigera-prometheus      prometheus-operated                 ClusterIP   None           <none>        9090/TCP                     6d8h
+tigera-system          tigera-api                          ClusterIP   10.0.43.221    <none>        443/TCP,8080/TCP             6d8h
+
+-----------------------------------------------------
+
+Installation Details 
+-----------------------------------------------------
+
+
+-----------------------------------------------------
+
+Global Network Policy 
+-----------------------------------------------------
+
+
+-----------------------------------------------------
+
+Licence Information 
+-----------------------------------------------------
+
+    expiry: "2023-02-01T23:59:59Z"
+apiVersion: v1
+items:
+- apiVersion: operator.tigera.io/v1
+  kind: Installation
+  metadata:
+    creationTimestamp: "2022-12-09T12:15:05Z"
+    generation: 2
+    name: default
+    resourceVersion: "17190"
+    uid: 36c7a3f4-a549-4465-8631-17abeee703c0
+  spec:
+    calicoNetwork:
+      bgp: Disabled
+      linuxDataplane: Iptables
+    cni:
+      ipam:
+        type: AzureVNET
+      type: AzureVNET
+    controlPlaneReplicas: 2
+    flexVolumePath: /etc/kubernetes/volumeplugins/
+    imagePullSecrets:
+    - name: tigera-pull-secret
+    kubernetesProvider: AKS
+    nodeUpdateStrategy:
+      rollingUpdate:
+        maxUnavailable: 1
+      type: RollingUpdate
+    nonPrivileged: Disabled
+    typhaAffinity:
+      nodeAffinity:
+        requiredDuringSchedulingIgnoredDuringExecution:
+          nodeSelectorTerms:
+          - matchExpressions:
+            - key: type
+              operator: NotIn
+              values:
+              - virtual-node
+            - key: kubernetes.azure.com/cluster
+              operator: Exists
+    variant: TigeraSecureEnterprise
+  status:
+    computed:
+      calicoNetwork:
+        bgp: Disabled
+        linuxDataplane: Iptables
+      cni:
+        ipam:
+          type: AzureVNET
+        type: AzureVNET
+      controlPlaneReplicas: 2
+      flexVolumePath: /etc/kubernetes/volumeplugins/
+      imagePullSecrets:
+      - name: tigera-pull-secret
+      kubernetesProvider: AKS
+      nodeUpdateStrategy:
+        rollingUpdate:
+          maxUnavailable: 1
+        type: RollingUpdate
+      nonPrivileged: Disabled
+      typhaAffinity:
+        nodeAffinity:
+          requiredDuringSchedulingIgnoredDuringExecution:
+            nodeSelectorTerms:
+            - matchExpressions:
+              - key: type
+                operator: NotIn
+                values:
+                - virtual-node
+              - key: kubernetes.azure.com/cluster
+                operator: Exists
+      variant: TigeraSecureEnterprise
+    mtu: 1500
+    variant: TigeraSecureEnterprise
+kind: List
+metadata:
+  resourceVersion: ""
+  selfLink: ""
+
+-----------------------------------------------------
+
+Tigera Status 
+-----------------------------------------------------
+
+NAME                  AVAILABLE   PROGRESSING   DEGRADED   SINCE
+apiserver             True        False         False      6d8h
+calico                True        False         False      5d3h
+compliance                                      True       
+intrusion-detection                             True       
+log-collector                                   True       
+log-storage           False       False         True       6d8h
+manager                                         True       
+monitor               True        False         False      6d8h
+
+-----------------------------------------------------
+
+Cluster Info 
+-----------------------------------------------------
+
+[0;32mKubernetes control plane[0m is running at [0;33mhttps://justinclus-justin-2829a3-214e3fa5.hcp.eastus.azmk8s.io:443[0m
+[0;32mCoreDNS[0m is running at [0;33mhttps://justinclus-justin-2829a3-214e3fa5.hcp.eastus.azmk8s.io:443/api/v1/namespaces/kube-system/services/kube-dns:dns/proxy[0m
+[0;32mMetrics-server[0m is running at [0;33mhttps://justinclus-justin-2829a3-214e3fa5.hcp.eastus.azmk8s.io:443/api/v1/namespaces/kube-system/services/https:metrics-server:/proxy[0m
+
+To further debug and diagnose cluster problems, use 'kubectl cluster-info dump'.
+
+-----------------------------------------------------
+
+Kubernetes Network Policy 
+-----------------------------------------------------
+
+NAMESPACE     NAME                 POD-SELECTOR             AGE
+kube-system   konnectivity-agent   app=konnectivity-agent   6d9h
+
+-----------------------------------------------------
+
+Calico Network Policy 
+-----------------------------------------------------
+
+
+-----------------------------------------------------
+
+Global Network Policy 
+-----------------------------------------------------
+
+
+-----------------------------------------------------
+
+Licence Information 
+-----------------------------------------------------
+
+NAME      CREATED AT
+default   2022-12-10T17:34:16Z
+NAME      CREATED AT
+default   2022-12-10T17:34:16Z
+    expiry: "2023-02-01T23:59:59Z"
+    expiry: "2023-02-01T23:59:59Z"

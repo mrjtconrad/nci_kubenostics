@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Kubernetes Cluster Diagnostics</title>
+    </head>
+
+    <body>
+        <input type="button" id="button" value="Refresh Kubernetes Cluster Diagnostics">
+        <p></p>
+        <object data="diagnostics.txt" width="100%" height="2000">
+            Not supported
+            </object>
+    </body>
+
+    <script>
+        document.getElementById('button').addEventListener('click', () => {
+            window.ipcRender.send('runScript');
+        })
+    </script>
+</html>

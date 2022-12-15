@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Start your development with Dorang landing page.">
+    <meta name="author" content="Devcrud">
+    <title>Justin Conrad | NCI | Cybersecurity Project</title>
+    <!-- font icons -->
+    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+    <!-- Bootstrap + Dorang main styles -->
+	<link rel="stylesheet" href="assets/css/dorang.css">
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home" class="dark-theme">
+    <!-- page navbar -->
+    <nav class="page-navbar" data-spy="affix" data-offset-top="10">
+        <ul class="nav-navbar container">
+            <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="justin.html" class="nav-link">About Justin</a></li>
+            <li class="nav-item"><a href="#" class="nav-link"><img src="assets/imgs/k8s.svg" alt=""></a></li>
+            <li class="nav-item"><a href="project.html" class="nav-link">About Project</a></li>
+            <li class="nav-item"><a href="docs.html" class="nav-link">Documentation</a></li>
+        </ul>
+    </nav><!-- end of page navbar -->
+    <div class="theme-selector">
+        <a href="javascript:void(0)" class="spinner">
+            <i class="ti-paint-bucket"></i>
+        </a>
+        <div class="body">
+            <a href="javascript:void(0)" class="light"></a>
+            <a href="javascript:void(0)" class="dark"></a>
+        </div>
+    </div>  
+    <!-- page header -->
+    <header class="header">        
+        <div class="overlay"></div>
+        <div class="header-content">
+            <img src="assets/imgs/logo.png" alt="" width="200" height="200">
+            <h1 class="header-title">Kubernetes Cluster Diagnostics Tool</h1>
+            <p class="header-subtitle">Click the button below & scroll down to see your diagnostic results.</p>
+            <input type="button" id="button" value="Run">
+         </div>
+        <script>
+            document.getElementById('button').addEventListener('click', () => {
+                window.ipcRender.send('runScript');
+                setTimeout(location.reload.bind(location), 10000);
+            })
+        </script>       
+    </header><!-- end of page header -->
+    <!-- diagnostics -->
+            <object data="diagnostics.txt" type="text/plain" width="100%" height="100%" padding="10" >
+                </object>
+            <!-- footer -->
+            <footer class="footer">
+                <p class="infos">&copy; <script>document.write(new Date().getFullYear())</script>, Made with <i class="ti-heart text-danger"></i> by Justin Conrad</a></p>       
+                <span>|</span>  
+            </footer><!-- end of footer -->
+        </div><!-- end of container -->
+    </div><!-- end of pre footer -->
+    <!-- core  -->
+    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+    <!-- bootstrap affix -->
+    <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+    <!-- Dorang js -->
+    <script src="assets/js/dorang.js"></script>
+</body>
+</html>
